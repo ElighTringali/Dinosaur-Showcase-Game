@@ -2178,11 +2178,2217 @@
         "name": "NewSprite67",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "Security Chief Easter Egg (alt).mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Security Chief Easter Egg (alt).mp4",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite68.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite68",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio Message 0.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio Message 0.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Raptor",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Health",
+          "type": "number",
+          "value": 100
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+          "EnableAnimationChanges": true,
+          "EnableHorizontalFlipping": true,
+          "IdleAnimationName": "Idle",
+          "RunAnimationName": "Run",
+          "JumpAnimationName": "Jump",
+          "FallAnimationName": "Fall",
+          "ClimbAnimationName": "Climb",
+          "PlatformerBehavior": "PlatformerObject",
+          "Animation": "Animation",
+          "Flippable": "Flippable"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "deceleration": 1500,
+          "jumpSpeed": 750,
+          "maxSpeed": 300,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "gravity": 1000,
+          "ignoreDefaultControls": false,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        },
+        {
+          "name": "RemapForPlatformer",
+          "type": "BehaviorRemapper::RemapForPlatformer",
+          "Up": "W",
+          "Left": "A",
+          "Down": "S",
+          "Right": "D",
+          "Jump": "",
+          "Platformer": "PlatformerObject"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Raptor_Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Walk",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Fall",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.04,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Fall",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Fall2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Fall3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Fall4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Fall5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Jump",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.04,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Jump",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Jump2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Jump3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Jump4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Attack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Attack5",
+                  "points": [
+                    {
+                      "name": "Teeth",
+                      "x": 296,
+                      "y": 28.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Attack6",
+                  "points": [
+                    {
+                      "name": "Teeth",
+                      "x": 284.5,
+                      "y": 29
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Attack7",
+                  "points": [
+                    {
+                      "name": "Teeth",
+                      "x": 287.5,
+                      "y": 28
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Attack8",
+                  "points": [
+                    {
+                      "name": "Teeth",
+                      "x": 296,
+                      "y": 28.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Walk_Attack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk_Attack13",
+                  "points": [
+                    {
+                      "name": "Teeth",
+                      "x": 289,
+                      "y": 26
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk_Attack14",
+                  "points": [
+                    {
+                      "name": "Teeth",
+                      "x": 289,
+                      "y": 26
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk_Attack15",
+                  "points": [
+                    {
+                      "name": "Teeth",
+                      "x": 289,
+                      "y": 26
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk_Attack16",
+                  "points": [
+                    {
+                      "name": "Teeth",
+                      "x": 289,
+                      "y": 26
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk_Attack17",
+                  "points": [
+                    {
+                      "name": "Teeth",
+                      "x": 289,
+                      "y": 26
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk_Attack18",
+                  "points": [
+                    {
+                      "name": "Teeth",
+                      "x": 289,
+                      "y": 26
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk_Attack19",
+                  "points": [
+                    {
+                      "name": "Teeth",
+                      "x": 289,
+                      "y": 26
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk_Attack20",
+                  "points": [
+                    {
+                      "name": "Teeth",
+                      "x": 289,
+                      "y": 26
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk_Attack21",
+                  "points": [
+                    {
+                      "name": "Teeth",
+                      "x": 289,
+                      "y": 26
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk_Attack22",
+                  "points": [
+                    {
+                      "name": "Teeth",
+                      "x": 289,
+                      "y": 26
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk_Attack23",
+                  "points": [
+                    {
+                      "name": "Teeth",
+                      "x": 289,
+                      "y": 26
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Walk_Attack24",
+                  "points": [
+                    {
+                      "name": "Teeth",
+                      "x": 289,
+                      "y": 26
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Slice",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Slice",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Slice2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Slice3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Raptor_Slice4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 25
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 218,
+                    "y": 59
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 168,
+                        "y": 14
+                      },
+                      {
+                        "x": 292.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 279.5,
+                        "y": 99
+                      },
+                      {
+                        "x": 201,
+                        "y": 126
+                      },
+                      {
+                        "x": 170.5,
+                        "y": 126
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Raptor"
+      }
+    ]
+  },
   "objectsGroups": [],
   "variables": [
     {
@@ -2307,7 +4513,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "DANCE!",
+          "layer": "UI",
           "name": "TEAM_3",
           "persistentUuid": "79ccb0cf-c8be-47db-8bb7-b4f249c10f3e",
           "width": 0,
@@ -2318,13 +4524,12 @@
           "stringProperties": [],
           "initialVariables": []
         }
-    ],
+      ],
       "objects": [
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Menu_Screen",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2384,7 +4589,6 @@
         {
           "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
           "name": "Play",
-          "tags": "",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -2448,7 +4652,6 @@
         {
           "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
           "name": "Credits",
-          "tags": "",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -2515,7 +4718,6 @@
           "italic": false,
           "name": "Title",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2548,7 +4750,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Menu_Dance",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -3032,16 +5233,11 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.24488383633725483,
+        "zoomFactor": 0.3300560049165928,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
-      "events": []
-    },
-    {
       "instances": [
         {
           "angle": 0,
@@ -3130,6 +5326,22 @@
           "x": -64,
           "y": -544,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 342,
+          "layer": "Chief Of Security Video Message",
+          "name": "Chief_Of_Security",
+          "persistentUuid": "94381b9d-4b9b-48e0-92cc-4a8132e67f09",
+          "width": 608,
+          "x": 672,
+          "y": 224,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3469,6 +5681,20 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Chief_Of_Security",
+          "type": "Video::VideoObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "opacity": 255,
+            "loop": false,
+            "volume": 100,
+            "videoResource": "Security Chief Easter Egg (alt).mp4"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -3491,6 +5717,9 @@
           },
           {
             "objectName": "Screen"
+          },
+          {
+            "objectName": "Chief_Of_Security"
           }
         ]
       },
@@ -3518,6 +5747,14 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::Pause"
+              },
+              "parameters": [
+                "Chief_Of_Security"
               ]
             }
           ]
@@ -3677,6 +5914,68 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Video::Ended"
+              },
+              "parameters": [
+                "Chief_Of_Security"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeLayer"
+              },
+              "parameters": [
+                "Chief_Of_Security",
+                "\"Chief Of Security Video Message\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeLayer"
+              },
+              "parameters": [
+                "Chief_Of_Security",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::Play"
+              },
+              "parameters": [
+                "Chief_Of_Security"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -3883,7 +6182,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6244537826600837,
+        "zoomFactor": 0.20902556228338137,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8734,13 +11033,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 800,
+          "height": 960,
           "layer": "",
           "name": "Boss_Objective",
           "persistentUuid": "a0ca7155-08c3-4a77-98c5-469315d49c75",
           "width": 64,
           "x": 25632,
-          "y": -384,
+          "y": -544,
           "zOrder": 1054,
           "numberProperties": [],
           "stringProperties": [],
@@ -9743,8 +12042,23 @@
           "customSize": false,
           "height": 0,
           "layer": "",
+          "name": "Audio_Interface",
+          "persistentUuid": "cf30db61-297b-4006-a9f4-a2a632be381a",
+          "width": 0,
+          "x": 7968,
+          "y": 960,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
           "name": "Raptor",
-          "persistentUuid": "f94345cf-84a8-4873-b424-79da5b8f179a",
+          "persistentUuid": "0279b4ae-079b-479f-b4d5-66d4c34c4b93",
           "width": 0,
           "x": 51,
           "y": 975,
@@ -9759,7 +12073,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Ground",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -9829,7 +12142,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Background_Walls",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -9891,7 +12203,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Trees",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -10064,7 +12375,6 @@
           "assetStoreId": "",
           "height": 1620,
           "name": "Grass",
-          "tags": "",
           "texture": "The Park Layered BG-1.png (2)2.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 2880,
@@ -10076,7 +12386,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Concrete_Wall",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -10146,7 +12455,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Blue_Raptor_NPC",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -10700,7 +13008,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Steel_Fence_Destructible",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -10779,7 +13086,6 @@
           "italic": false,
           "name": "Blue_Raptor_Dialogue",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -10807,7 +13113,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Crate",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -10879,7 +13184,6 @@
           "italic": false,
           "name": "WASD_Arrow",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -10901,7 +13205,6 @@
           "italic": false,
           "name": "SPACE",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -10923,7 +13226,6 @@
           "italic": false,
           "name": "NPCs",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -10943,7 +13245,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Red_Raptor_NPC",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -11124,7 +13425,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Gray_Raptor_NPC",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -11415,7 +13715,6 @@
           "italic": false,
           "name": "Gray_Raptor_Dialogue",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -11443,7 +13742,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Destructible_Crate",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -11522,7 +13820,6 @@
           "italic": false,
           "name": "Score",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [
@@ -11551,7 +13848,6 @@
           "italic": false,
           "name": "Attacks",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -11570,7 +13866,6 @@
         {
           "assetStoreId": "d68a7f09fb9a6a3b183e43e1132b13d6ef13a5cc0988dd148dd22819876a463c",
           "name": "Health",
-          "tags": "",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
           "variables": [
             {
@@ -11645,7 +13940,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Electricity",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -11752,7 +14046,6 @@
           "italic": false,
           "name": "Ramming_Electrical_Fences",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -11772,7 +14065,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Greenery",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -11834,7 +14126,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Compy",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -12173,7 +14464,6 @@
           "italic": false,
           "name": "Compy2",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -15603,6 +17893,78 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Audio_Interface",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite68",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 58
+                          },
+                          {
+                            "x": 64,
+                            "y": 58
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -15754,6 +18116,9 @@
           },
           {
             "objectName": "Health_Placeholder"
+          },
+          {
+            "objectName": "Audio_Interface"
           }
         ]
       },
@@ -17455,7 +19820,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Tall Dinosaur",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17872,6 +20236,44 @@
                 "Levels_Complete",
                 "+",
                 "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Audio_Interface",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Audio Message 0.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Audio_Interface",
+                ""
               ]
             }
           ]
@@ -18820,6 +21222,9 @@
       "variables": [],
       "instances": [],
       "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "events": [],
       "layers": [
         {
@@ -18915,11 +21320,26 @@
       "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
-      "uiSettings": {},
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.5079575118131732,
+        "windowMask": false
+      },
       "objectsGroups": [],
       "variables": [],
       "instances": [],
       "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "events": [],
       "layers": [
         {
@@ -19085,7 +21505,6 @@
           "italic": false,
           "name": "You_Have_Died",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -19104,7 +21523,6 @@
         {
           "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
           "name": "Menu",
-          "tags": "",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -19168,7 +21586,6 @@
         {
           "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
           "name": "Restart_Level",
-          "tags": "",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -19230,6 +21647,20 @@
           }
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "You_Have_Died"
+          },
+          {
+            "objectName": "Menu"
+          },
+          {
+            "objectName": "Restart_Level"
+          }
+        ]
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -19417,6 +21848,9 @@
       "variables": [],
       "instances": [],
       "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -35556,7 +37990,6 @@
               "italic": false,
               "name": "Label",
               "smoothed": true,
-              "tags": "",
               "type": "TextObject::Text",
               "underlined": false,
               "variables": [],
@@ -35579,7 +38012,6 @@
               "leftMargin": 0,
               "name": "FillBar",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": true,
               "topMargin": 0,
@@ -35608,7 +38040,6 @@
               "leftMargin": 0,
               "name": "Buffer",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": true,
               "topMargin": 0,
@@ -35630,7 +38061,6 @@
               "leftMargin": 0,
               "name": "Background",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": true,
               "topMargin": 0,
@@ -35640,7 +38070,24 @@
               "effects": [],
               "behaviors": []
             }
-          ]
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Label"
+              },
+              {
+                "objectName": "FillBar"
+              },
+              {
+                "objectName": "Buffer"
+              },
+              {
+                "objectName": "Background"
+              }
+            ]
+          }
         }
       ]
     },
@@ -49769,7 +52216,6 @@
               "italic": false,
               "name": "Label",
               "smoothed": true,
-              "tags": "",
               "type": "TextObject::Text",
               "underlined": false,
               "variables": [],
@@ -49792,7 +52238,6 @@
               "leftMargin": 0,
               "name": "Idle",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": false,
               "topMargin": 0,
@@ -49822,7 +52267,6 @@
               "leftMargin": 0,
               "name": "Hovered",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": false,
               "topMargin": 0,
@@ -49844,7 +52288,6 @@
               "leftMargin": 0,
               "name": "Pressed",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": false,
               "topMargin": 0,
@@ -49854,7 +52297,24 @@
               "effects": [],
               "behaviors": []
             }
-          ]
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Label"
+              },
+              {
+                "objectName": "Idle"
+              },
+              {
+                "objectName": "Hovered"
+              },
+              {
+                "objectName": "Pressed"
+              }
+            ]
+          }
         }
       ]
     },
