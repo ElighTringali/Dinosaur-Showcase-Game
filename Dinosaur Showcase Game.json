@@ -2318,7 +2318,7 @@
           "stringProperties": [],
           "initialVariables": []
         }
-      ],
+    ],
       "objects": [
         {
           "adaptCollisionMaskAutomatically": true,
