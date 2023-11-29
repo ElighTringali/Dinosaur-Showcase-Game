@@ -5233,7 +5233,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3300560049165928,
+        "zoomFactor": 0.47535850871269414,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5342,6 +5342,22 @@
           "x": 672,
           "y": 224,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "layer": "",
+          "name": "Score",
+          "persistentUuid": "6247e387-49a5-462d-8713-99dfa6e791f0",
+          "width": 256,
+          "x": 800,
+          "y": -128,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5695,6 +5711,27 @@
             "volume": 100,
             "videoResource": "Security Chief Easter Egg (alt).mp4"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Score",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Score: 0",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -5720,6 +5757,9 @@
           },
           {
             "objectName": "Chief_Of_Security"
+          },
+          {
+            "objectName": "Score"
           }
         ]
       },
@@ -5755,6 +5795,22 @@
               },
               "parameters": [
                 "Chief_Of_Security"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "\"Score: \" + GlobalVariableString(Score)"
               ]
             }
           ]
@@ -6182,7 +6238,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.20902556228338137,
+        "zoomFactor": 0.1403985780603598,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -20282,6 +20338,32 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Escape"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level Select\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -21330,7 +21412,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5079575118131732,
+        "zoomFactor": 0.3192894589690164,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21445,7 +21527,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4598521426736332,
+        "zoomFactor": 0.4598521426736333,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21457,11 +21539,11 @@
           "depth": 1,
           "height": 56,
           "layer": "",
-          "name": "You_Have_Died",
+          "name": "Connection_Lost",
           "persistentUuid": "49e9a9a8-8e29-41d0-8579-d80efa220fac",
-          "width": 352,
-          "x": 768,
-          "y": 320,
+          "width": 608,
+          "x": 640,
+          "y": 296,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -21475,7 +21557,7 @@
           "name": "Menu",
           "persistentUuid": "63aae497-31fe-4e29-894d-83a5c98509fd",
           "width": 0,
-          "x": 544,
+          "x": 1152,
           "y": 480,
           "zOrder": 2,
           "numberProperties": [],
@@ -21490,7 +21572,7 @@
           "name": "Restart_Level",
           "persistentUuid": "73688fce-604b-4e4f-b178-c3a17d19f8ac",
           "width": 0,
-          "x": 1152,
+          "x": 544,
           "y": 480,
           "zOrder": 3,
           "numberProperties": [],
@@ -21503,14 +21585,14 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "You_Have_Died",
+          "name": "Connection_Lost",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "You Have Died!",
+          "string": "Connection Terminated",
           "font": "",
           "textAlignment": "center",
           "characterSize": 50,
@@ -21651,7 +21733,7 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "You_Have_Died"
+            "objectName": "Connection_Lost"
           },
           {
             "objectName": "Menu"
@@ -21672,7 +21754,7 @@
               },
               "parameters": [
                 "",
-                "You_Have_Died",
+                "Connection_Lost",
                 "",
                 "",
                 ""
