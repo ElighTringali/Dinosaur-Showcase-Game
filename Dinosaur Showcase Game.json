@@ -3163,8 +3163,8 @@
         "alwaysLoaded": false,
         "file": "assets/Barrier.png",
         "kind": "image",
-        "name": "Barrier",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite96.png\"}",
+        "name": "Barrier",
         "smoothed": false,
         "userAdded": true
       },
@@ -4094,7 +4094,6 @@
         "name": "NewSprite165",
         "smoothed": false,
         "userAdded": true
-<<<<<<< HEAD
       },
       {
         "alwaysLoaded": false,
@@ -4141,8 +4140,6 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
-=======
->>>>>>> parent of 3a4e991 (Level Select & Credits)
       }
     ],
     "resourceFolders": []
@@ -7657,7 +7654,6 @@
           ]
         }
       ]
-<<<<<<< HEAD
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -7739,8 +7735,6 @@
           ]
         }
       ]
-=======
->>>>>>> parent of 3a4e991 (Level Select & Credits)
     }
   ],
   "objectsFolderStructure": {
@@ -7936,7 +7930,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Menu_Screen",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -7996,7 +7989,6 @@
         {
           "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
           "name": "Play",
-          "tags": "",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -8060,7 +8052,6 @@
         {
           "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
           "name": "Credits",
-          "tags": "",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -8127,7 +8118,6 @@
           "italic": false,
           "name": "Title",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -8160,7 +8150,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Menu_Dance",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -8616,1117 +8605,8 @@
           "type": "FlippableCapability::FlippableBehavior"
         },
         {
-<<<<<<< HEAD
           "name": "ObjectSpawner",
           "type": "ObjectSpawner::ObjectSpawner"
-=======
-          "name": "Opacity",
-          "type": "OpacityCapability::OpacityBehavior"
-        },
-        {
-          "name": "Physics2",
-          "type": "Physics2::Physics2Behavior",
-          "gravityX": 0,
-          "gravityY": 9.8,
-          "scaleX": 100,
-          "scaleY": 100
-        },
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
-        },
-        {
-          "name": "PlatformerCharacterAnimator",
-          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
-        },
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior"
-        },
-        {
-          "name": "RemapForPlatformer",
-          "type": "BehaviorRemapper::RemapForPlatformer"
-        },
-        {
-          "name": "Resizable",
-          "type": "ResizableCapability::ResizableBehavior"
-        },
-        {
-          "name": "Scale",
-          "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
-        }
-      ]
-    },
-    {
-      "b": 0,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Level_32Select",
-      "name": "Level Select",
-      "r": 0,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 0,
-      "uiSettings": {
-        "grid": true,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.3526904934771234,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [],
-      "objects": [],
-      "events": [],
-      "layers": [],
-      "behaviorsSharedData": [
-        {
-          "name": "Animation",
-          "type": "AnimatableCapability::AnimatableBehavior"
-        },
-        {
-          "name": "Effect",
-          "type": "EffectCapability::EffectBehavior"
-        },
-        {
-          "name": "Flippable",
-          "type": "FlippableCapability::FlippableBehavior"
-        },
-        {
-          "name": "Opacity",
-          "type": "OpacityCapability::OpacityBehavior"
-        },
-        {
-          "name": "PlatformerCharacterAnimator",
-          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
-        },
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior"
-        },
-        {
-          "name": "RemapForPlatformer",
-          "type": "BehaviorRemapper::RemapForPlatformer"
-        },
-        {
-          "name": "Resizable",
-          "type": "ResizableCapability::ResizableBehavior"
-        },
-        {
-          "name": "Scale",
-          "type": "ScalableCapability::ScalableBehavior"
-        }
-      ]
-    },
-    {
-      "b": 0,
-      "disableInputWhenNotFocused": false,
-      "mangledName": "",
-      "name": "",
-      "r": 0,
-      "standardSortMethod": false,
-      "stopSoundsOnStartup": false,
-      "title": "(No title)",
-      "v": 0,
-      "uiSettings": [],
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Level_1",
-          "persistentUuid": "88933342-173e-4f47-8485-a2218f79d735",
-          "width": 0,
-          "x": 256,
-          "y": -128,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Level_Select",
-          "persistentUuid": "c5e21a98-b77e-4faa-90b3-4142dac17981",
-          "width": 0,
-          "x": 815,
-          "y": 136,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Level 2 Show",
-          "name": "Level_2",
-          "persistentUuid": "6659b855-398f-439c-b15c-bc888c691bc3",
-          "width": 0,
-          "x": 1408,
-          "y": -128,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Level 3 Show",
-          "name": "Level_3",
-          "persistentUuid": "2e50f7c0-038c-4501-9fad-74edaa4ec6ba",
-          "width": 0,
-          "x": 256,
-          "y": 416,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Menu",
-          "persistentUuid": "6c0e41c9-3171-4af1-88aa-7b9bacddbffb",
-          "width": 0,
-          "x": 1408,
-          "y": 416,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1600,
-          "layer": "",
-          "name": "Screen",
-          "persistentUuid": "ee8d417b-6160-4e95-a0be-4de863c5bc11",
-          "width": 2112,
-          "x": -64,
-          "y": -544,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 342,
-          "layer": "Chief Of Security Video Message",
-          "name": "Chief_Of_Security",
-          "persistentUuid": "94381b9d-4b9b-48e0-92cc-4a8132e67f09",
-          "width": 608,
-          "x": 672,
-          "y": 224,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 128,
-          "layer": "",
-          "name": "Score",
-          "persistentUuid": "6247e387-49a5-462d-8713-99dfa6e791f0",
-          "width": 256,
-          "x": 800,
-          "y": -128,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
-          "name": "Level_1",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LeftPadding": 0,
-            "RightPadding": 0,
-            "PressedLabelOffsetY": 4,
-            "BottomPadding": 6,
-            "TopPadding": 0,
-            "HoveredFadeOutDuration": 0
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 10,
-              "height": 64,
-              "leftMargin": 6,
-              "rightMargin": 6,
-              "texture": "Transparent Button With White Blue Border_Hovered.png",
-              "tiled": false,
-              "topMargin": 10,
-              "width": 192
-            },
-            "Idle": {
-              "bottomMargin": 10,
-              "height": 64,
-              "leftMargin": 6,
-              "rightMargin": 6,
-              "texture": "Transparent Button With White Blue Border_Idle.png",
-              "tiled": false,
-              "topMargin": 10,
-              "width": 192
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "Level 1",
-              "font": "Kenney Mini Square.ttf",
-              "textAlignment": "center",
-              "characterSize": 45,
-              "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 10,
-              "height": 64,
-              "leftMargin": 6,
-              "rightMargin": 6,
-              "texture": "Transparent Button With White Blue Border_Pressed.png",
-              "tiled": false,
-              "topMargin": 10,
-              "width": 192
-            }
-          }
-        },
-        {
-          "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
-          "name": "Level_3",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LeftPadding": 0,
-            "RightPadding": 0,
-            "PressedLabelOffsetY": 4,
-            "BottomPadding": 6,
-            "TopPadding": 0,
-            "HoveredFadeOutDuration": 0
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 10,
-              "height": 64,
-              "leftMargin": 6,
-              "rightMargin": 6,
-              "texture": "Transparent Button With White Blue Border_Hovered.png",
-              "tiled": false,
-              "topMargin": 10,
-              "width": 192
-            },
-            "Idle": {
-              "bottomMargin": 10,
-              "height": 64,
-              "leftMargin": 6,
-              "rightMargin": 6,
-              "texture": "Transparent Button With White Blue Border_Idle.png",
-              "tiled": false,
-              "topMargin": 10,
-              "width": 192
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "Level 3",
-              "font": "Kenney Mini Square.ttf",
-              "textAlignment": "center",
-              "characterSize": 45,
-              "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 10,
-              "height": 64,
-              "leftMargin": 6,
-              "rightMargin": 6,
-              "texture": "Transparent Button With White Blue Border_Pressed.png",
-              "tiled": false,
-              "topMargin": 10,
-              "width": 192
-            }
-          }
-        },
-        {
-          "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
-          "name": "Level_2",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LeftPadding": 0,
-            "RightPadding": 0,
-            "PressedLabelOffsetY": 4,
-            "BottomPadding": 6,
-            "TopPadding": 0,
-            "HoveredFadeOutDuration": 0
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 10,
-              "height": 64,
-              "leftMargin": 6,
-              "rightMargin": 6,
-              "texture": "Transparent Button With White Blue Border_Hovered.png",
-              "tiled": false,
-              "topMargin": 10,
-              "width": 192
-            },
-            "Idle": {
-              "bottomMargin": 10,
-              "height": 64,
-              "leftMargin": 6,
-              "rightMargin": 6,
-              "texture": "Transparent Button With White Blue Border_Idle.png",
-              "tiled": false,
-              "topMargin": 10,
-              "width": 192
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "Level 2",
-              "font": "Kenney Mini Square.ttf",
-              "textAlignment": "center",
-              "characterSize": 45,
-              "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 10,
-              "height": 64,
-              "leftMargin": 6,
-              "rightMargin": 6,
-              "texture": "Transparent Button With White Blue Border_Pressed.png",
-              "tiled": false,
-              "topMargin": 10,
-              "width": 192
-            }
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Level_Select",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Level Select",
-          "font": "",
-          "textAlignment": "center",
-          "characterSize": 50,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
-          "name": "Menu",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LeftPadding": 0,
-            "RightPadding": 0,
-            "PressedLabelOffsetY": 4,
-            "BottomPadding": 6,
-            "TopPadding": 0,
-            "HoveredFadeOutDuration": 0
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 10,
-              "height": 64,
-              "leftMargin": 6,
-              "rightMargin": 6,
-              "texture": "Transparent Button With White Blue Border_Hovered.png",
-              "tiled": false,
-              "topMargin": 10,
-              "width": 192
-            },
-            "Idle": {
-              "bottomMargin": 10,
-              "height": 64,
-              "leftMargin": 6,
-              "rightMargin": 6,
-              "texture": "Transparent Button With White Blue Border_Idle.png",
-              "tiled": false,
-              "topMargin": 10,
-              "width": 192
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "Menu",
-              "font": "Kenney Mini Square.ttf",
-              "textAlignment": "center",
-              "characterSize": 45,
-              "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 10,
-              "height": 64,
-              "leftMargin": 6,
-              "rightMargin": 6,
-              "texture": "Transparent Button With White Blue Border_Pressed.png",
-              "tiled": false,
-              "topMargin": 10,
-              "width": 192
-            }
-          }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Screen",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite66",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "Chief_Of_Security",
-          "tags": "",
-          "type": "Video::VideoObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "opacity": 255,
-            "loop": false,
-            "volume": 100,
-            "videoResource": "Security Chief Easter Egg (alt).mp4"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Score",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Score: 0",
-          "font": "",
-          "textAlignment": "center",
-          "characterSize": 50,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        }
-      ],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "Level_1"
-          },
-          {
-            "objectName": "Level_2"
-          },
-          {
-            "objectName": "Level_3"
-          },
-          {
-            "objectName": "Level_Select"
-          },
-          {
-            "objectName": "Menu"
-          },
-          {
-            "objectName": "Screen"
-          },
-          {
-            "objectName": "Chief_Of_Security"
-          },
-          {
-            "objectName": "Score"
-          }
-        ]
-      },
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "Screen",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Video::Pause"
-              },
-              "parameters": [
-                "Chief_Of_Security"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "Computer SFX.mp3",
-                "1",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "glitch-sound-static-noise-30279.mp3",
-                "2",
-                "",
-                "50",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "Score",
-                "=",
-                "\"Score: \" + GlobalVariableString(Score)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "Levels_Complete",
-                ">=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeLayer"
-              },
-              "parameters": [
-                "Level_2",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "Levels_Complete",
-                ">=",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeLayer"
-              },
-              "parameters": [
-                "Level_3",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-              },
-              "parameters": [
-                "Level_1",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Level 1: Containment Breach\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-              },
-              "parameters": [
-                "Level_2",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Level 2: The Park\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-              },
-              "parameters": [
-                "Level_3",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Level 3: The Visitor Center\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-              },
-              "parameters": [
-                "Menu",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Menu_Screen\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Video::Ended"
-              },
-              "parameters": [
-                "Chief_Of_Security"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeLayer"
-              },
-              "parameters": [
-                "Chief_Of_Security",
-                "\"Chief Of Security Video Message\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Space"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeLayer"
-              },
-              "parameters": [
-                "Chief_Of_Security",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Video::Play"
-              },
-              "parameters": [
-                "Chief_Of_Security"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Chief Of Security Video Message",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Level 3 Show",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Level 2 Show",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "Animation",
-          "type": "AnimatableCapability::AnimatableBehavior"
-        },
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM"
-        },
-        {
-          "name": "DraggablePhysics",
-          "type": "DraggablePhysics::DraggablePhysics"
-        },
-        {
-          "name": "Effect",
-          "type": "EffectCapability::EffectBehavior"
-        },
-        {
-          "name": "Flippable",
-          "type": "FlippableCapability::FlippableBehavior"
->>>>>>> parent of 3a4e991 (Level Select & Credits)
         },
         {
           "name": "Opacity",
@@ -9751,6 +8631,10 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement"
         },
         {
           "name": "RemapForPlatformer",
@@ -9790,11 +8674,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-<<<<<<< HEAD
         "zoomFactor": 0.21607397323878602,
-=======
-        "zoomFactor": 0.2636457673771186,
->>>>>>> parent of 3a4e991 (Level Select & Credits)
         "windowMask": false
       },
       "objectsGroups": [],
@@ -15716,7 +14596,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Ground",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -15820,7 +14699,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Background_Walls",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -15882,7 +14760,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Trees",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -16055,7 +14932,6 @@
           "assetStoreId": "",
           "height": 1620,
           "name": "Grass",
-          "tags": "",
           "texture": "The Park Layered BG-1.png (2)2.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 2880,
@@ -16067,7 +14943,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Concrete_Wall",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -16171,7 +15046,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Blue_Raptor_NPC",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -16725,7 +15599,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Steel_Fence_Destructible",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -16804,7 +15677,6 @@
           "italic": false,
           "name": "Blue_Raptor_Dialogue",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -16832,7 +15704,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Crate",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -16904,7 +15775,6 @@
           "italic": false,
           "name": "WASD_Arrow",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -16926,7 +15796,6 @@
           "italic": false,
           "name": "SPACE",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -16948,7 +15817,6 @@
           "italic": false,
           "name": "NPCs",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -16968,7 +15836,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Red_Raptor_NPC",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -17149,7 +16016,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Gray_Raptor_NPC",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -17440,7 +16306,6 @@
           "italic": false,
           "name": "Gray_Raptor_Dialogue",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -17468,7 +16333,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Destructible_Crate",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -17547,7 +16411,6 @@
           "italic": false,
           "name": "Score",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [
@@ -17576,7 +16439,6 @@
           "italic": false,
           "name": "Attacks",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -17595,7 +16457,6 @@
         {
           "assetStoreId": "d68a7f09fb9a6a3b183e43e1132b13d6ef13a5cc0988dd148dd22819876a463c",
           "name": "Health",
-          "tags": "",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
           "variables": [
             {
@@ -17670,7 +16531,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Electricity",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -17777,7 +16637,6 @@
           "italic": false,
           "name": "Ramming_Electrical_Fences",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -17797,7 +16656,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Greenery",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -17859,7 +16717,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Compy",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -18198,7 +17055,6 @@
           "italic": false,
           "name": "Compy2",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -21396,7 +20252,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Dante_Plushie",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -21629,6 +20484,36 @@
           },
           {
             "objectName": "Dante_Plushie"
+          },
+          {
+            "objectName": "Ground"
+          },
+          {
+            "objectName": "Background_Walls"
+          },
+          {
+            "objectName": "Concrete_Wall"
+          },
+          {
+            "objectName": "Crate"
+          },
+          {
+            "objectName": "Red_Raptor_NPC"
+          },
+          {
+            "objectName": "Destructible_Crate"
+          },
+          {
+            "objectName": "Score"
+          },
+          {
+            "objectName": "Health"
+          },
+          {
+            "objectName": "Greenery"
+          },
+          {
+            "objectName": "Compy"
           }
         ]
       },
@@ -24206,12 +23091,20 @@
           "type": "RectangleMovement::RectangleMovement"
         },
         {
+          "name": "RemapForPlatformer",
+          "type": "BehaviorRemapper::RemapForPlatformer"
+        },
+        {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
         },
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "Text_AutoTyping",
@@ -24937,6 +23830,10 @@
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement"
+        },
+        {
           "name": "RemapForPlatformer",
           "type": "BehaviorRemapper::RemapForPlatformer"
         },
@@ -24977,13 +23874,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-<<<<<<< HEAD
         "snap": true,
         "zoomFactor": 0.24672586957407253,
-=======
-        "snap": false,
-        "zoomFactor": 0.23867758270258588,
->>>>>>> parent of 3a4e991 (Level Select & Credits)
         "windowMask": false
       },
       "objectsGroups": [],
@@ -27118,7 +26010,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Pterodactyl",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -27180,7 +26071,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Pterodactyl2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -27242,7 +26132,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Tree",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -28045,7 +26934,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Boney2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -28107,7 +26995,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Log",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -28177,7 +27064,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Background",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -28239,7 +27125,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Floor",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -28309,7 +27194,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Barrier",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -28357,1146 +27241,9 @@
           ]
         },
         {
-<<<<<<< HEAD
-=======
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Raptor",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "jumpSpeed": 700,
-              "jumpSustainTime": 0.2,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 400,
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "ladderClimbingSpeed": 150,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            },
-            {
-              "name": "RemapForPlatformer",
-              "type": "BehaviorRemapper::RemapForPlatformer",
-              "Up": "w",
-              "Left": "a",
-              "Down": "s",
-              "Right": "d",
-              "Jump": "v",
-              "Platformer": "PlatformerObject"
-            }
-          ],
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor6",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor7",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor8",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor9",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor10",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor11",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor12",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Walking",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor13",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor14",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor15",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor16",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor17",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor18",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor19",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor20",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor21",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor22",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor23",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor24",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Jumping",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor25",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor26",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor27",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor28",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Slice",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor29",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor30",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor31",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor32",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor33",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor34",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Duck",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor35",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor36",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor37",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 228.5,
-                        "y": -131
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 210.5,
-                        "y": 54.5
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 134,
-                            "y": 31
-                          },
-                          {
-                            "x": 266,
-                            "y": 24
-                          },
-                          {
-                            "x": 190,
-                            "y": 122
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
->>>>>>> parent of 3a4e991 (Level Select & Credits)
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "log2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -29558,7 +27305,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Invisible_collision",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -29601,7 +27347,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Egg",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -29964,7 +27709,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Nest",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -30026,7 +27770,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "human_enemy",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -30418,7 +28161,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Pterodactyl3",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -30480,7 +28222,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Invisible_collision2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -30523,7 +28264,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Apple1",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -30585,7 +28325,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Raptor_duck",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -30719,7 +28458,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Apple2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -30781,7 +28519,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Apple3",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -30843,7 +28580,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "wall",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -30913,7 +28649,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "block",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -30975,7 +28710,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Door",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31045,7 +28779,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "black",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31107,7 +28840,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "window",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31169,7 +28901,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "trash_can",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31231,7 +28962,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "lamp_post",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31293,7 +29023,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "trash1",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31355,7 +29084,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "trash2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31417,7 +29145,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "teleporter",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31460,7 +29187,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "pterodactyl4",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31522,7 +29248,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "log3",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31584,7 +29309,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "invisible_collision3",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31627,7 +29351,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Stair",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31761,7 +29484,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "blocky",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31831,7 +29553,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "dirt",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -31895,7 +29616,6 @@
           "italic": false,
           "name": "Text",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -32087,7 +29807,6 @@
           ]
         }
       ],
-<<<<<<< HEAD
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
@@ -32213,8 +29932,6 @@
           }
         ]
       },
-=======
->>>>>>> parent of 3a4e991 (Level Select & Credits)
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -34059,6 +31776,14 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "DraggablePhysics",
+          "type": "DraggablePhysics::DraggablePhysics"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -34079,12 +31804,28 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "scaleX": 100,
+          "scaleY": 100
+        },
+        {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
         },
         {
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement"
         },
         {
           "name": "RemapForPlatformer",
@@ -34097,7 +31838,6 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
-<<<<<<< HEAD
         },
         {
           "name": "Text",
@@ -34106,8 +31846,6 @@
         {
           "name": "Text_AutoTyping",
           "type": "AutoTyping::Text_AutoTyping"
-=======
->>>>>>> parent of 3a4e991 (Level Select & Credits)
         }
       ]
     },
@@ -36489,7 +34227,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Mosasaurus",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36568,7 +34305,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "water",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36630,7 +34366,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "wall",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36700,7 +34435,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "window",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36762,7 +34496,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "block",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36824,7 +34557,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "block2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36894,7 +34626,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Door",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36956,7 +34687,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "black",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -37018,7 +34748,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Spawn",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -37039,1146 +34768,9 @@
           ]
         },
         {
-<<<<<<< HEAD
-=======
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Raptor",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            },
-            {
-              "name": "RemapForPlatformer",
-              "type": "BehaviorRemapper::RemapForPlatformer",
-              "Up": "w",
-              "Left": "a",
-              "Down": "s",
-              "Right": "d",
-              "Jump": "v",
-              "Platformer": "PlatformerObject"
-            }
-          ],
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Idle3",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Idle4",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Idle5",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Idle6",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Idle7",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Idle8",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Idle9",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Walking",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor38",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor39",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor40",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor41",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor42",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor43",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor44",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor45",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor46",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor47",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor48",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor49",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Jumping",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor50",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor51",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor52",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor53",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Slice",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor54",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor55",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor56",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor57",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor58",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor59",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Duck",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor60",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor61",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Raptor62",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 210,
-                        "y": -86.5
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 211,
-                        "y": 53
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 144,
-                            "y": 42
-                          },
-                          {
-                            "x": 247.5,
-                            "y": 45.5
-                          },
-                          {
-                            "x": 189,
-                            "y": 125
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
->>>>>>> parent of 3a4e991 (Level Select & Credits)
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "invis_collision",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -38221,7 +34813,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Pterodactyl",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -38283,7 +34874,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "barrier_collision",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -38326,7 +34916,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Pterodactyl2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -38388,7 +34977,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Background",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -38450,7 +35038,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "trash_can",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -38512,7 +35099,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "lamp_post",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -38574,7 +35160,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "grey_block",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -38644,7 +35229,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Floor",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -38714,7 +35298,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Tent",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -38776,7 +35359,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "table",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -38846,7 +35428,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Banner",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -38908,7 +35489,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Water",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -38970,7 +35550,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Dinosaur",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -39189,7 +35768,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Shooting_dino",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -39395,7 +35973,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "idle_dino",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -39601,7 +36178,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Compy",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -39879,7 +36455,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Compy2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -40157,7 +36732,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Stegosaurus",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -40471,7 +37045,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "stegasaurus_spikes",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -40533,7 +37106,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "dirt",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -40595,7 +37167,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "sky",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -40657,7 +37228,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "grant",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -40719,7 +37289,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "meat",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -40781,7 +37350,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "crate",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -40851,7 +37419,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "invisible_barrier",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -40902,7 +37469,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "hook",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -40964,7 +37530,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "hook2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -41026,7 +37591,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "string",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -41088,7 +37652,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "house_floor",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -41158,7 +37721,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "cloud",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -41220,7 +37782,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "pillars",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -41282,7 +37843,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "line",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -41341,7 +37901,6 @@
           ]
         }
       ],
-<<<<<<< HEAD
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
@@ -41473,8 +38032,6 @@
           }
         ]
       },
-=======
->>>>>>> parent of 3a4e991 (Level Select & Credits)
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -41896,6 +38453,14 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "DraggablePhysics",
+          "type": "DraggablePhysics::DraggablePhysics"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -41916,12 +38481,28 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "scaleX": 100,
+          "scaleY": 100
+        },
+        {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
         },
         {
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement"
         },
         {
           "name": "RemapForPlatformer",
@@ -41934,6 +38515,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -41964,6 +38549,9 @@
       "variables": [],
       "instances": [],
       "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "events": [],
       "layers": [
         {
@@ -42058,6 +38646,10 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement"
         },
         {
           "name": "RemapForPlatformer",
@@ -42376,10 +38968,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -43715,7 +40307,6 @@
           "italic": false,
           "name": "Connection_Lost",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -43734,7 +40325,6 @@
         {
           "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
           "name": "Menu",
-          "tags": "",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -43798,7 +40388,6 @@
         {
           "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
           "name": "Restart_Level",
-          "tags": "",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -44041,6 +40630,10 @@
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement"
+        },
+        {
           "name": "RemapForPlatformer",
           "type": "BehaviorRemapper::RemapForPlatformer"
         },
@@ -44085,12 +40678,9 @@
       "variables": [],
       "instances": [],
       "objects": [],
-<<<<<<< HEAD
       "objectsFolderStructure": {
         "folderName": "__ROOT"
       },
-=======
->>>>>>> parent of 3a4e991 (Level Select & Credits)
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -44212,6 +40802,10 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement"
         },
         {
           "name": "RemapForPlatformer",
@@ -62790,7 +59384,6 @@
               "italic": false,
               "name": "Label",
               "smoothed": true,
-              "tags": "",
               "type": "TextObject::Text",
               "underlined": false,
               "variables": [],
@@ -62813,7 +59406,6 @@
               "leftMargin": 0,
               "name": "FillBar",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": true,
               "topMargin": 0,
@@ -62842,7 +59434,6 @@
               "leftMargin": 0,
               "name": "Buffer",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": true,
               "topMargin": 0,
@@ -62864,7 +59455,6 @@
               "leftMargin": 0,
               "name": "Background",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": true,
               "topMargin": 0,
@@ -62874,7 +59464,24 @@
               "effects": [],
               "behaviors": []
             }
-          ]
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Label"
+              },
+              {
+                "objectName": "FillBar"
+              },
+              {
+                "objectName": "Buffer"
+              },
+              {
+                "objectName": "Background"
+              }
+            ]
+          }
         }
       ]
     },
@@ -77003,7 +73610,6 @@
               "italic": false,
               "name": "Label",
               "smoothed": true,
-              "tags": "",
               "type": "TextObject::Text",
               "underlined": false,
               "variables": [],
@@ -77026,7 +73632,6 @@
               "leftMargin": 0,
               "name": "Idle",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": false,
               "topMargin": 0,
@@ -77056,7 +73661,6 @@
               "leftMargin": 0,
               "name": "Hovered",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": false,
               "topMargin": 0,
@@ -77078,7 +73682,6 @@
               "leftMargin": 0,
               "name": "Pressed",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": false,
               "topMargin": 0,
@@ -77088,7 +73691,24 @@
               "effects": [],
               "behaviors": []
             }
-          ]
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Label"
+              },
+              {
+                "objectName": "Idle"
+              },
+              {
+                "objectName": "Hovered"
+              },
+              {
+                "objectName": "Pressed"
+              }
+            ]
+          }
         }
       ]
     },
