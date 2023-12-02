@@ -2830,7 +2830,7 @@
         "alwaysLoaded": false,
         "file": "assets/Aiming.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Aiming.png\"}",
         "name": "Aiming",
         "smoothed": false,
         "userAdded": true
@@ -2839,7 +2839,7 @@
         "alwaysLoaded": false,
         "file": "assets/Aiming2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Aiming2.png\"}",
         "name": "Aiming2",
         "smoothed": false,
         "userAdded": true
@@ -2848,7 +2848,7 @@
         "alwaysLoaded": false,
         "file": "assets/Aiming3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Aiming3.png\"}",
         "name": "Aiming3",
         "smoothed": false,
         "userAdded": true
@@ -2857,7 +2857,7 @@
         "alwaysLoaded": false,
         "file": "assets/Aiming4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Aiming4.png\"}",
         "name": "Aiming4",
         "smoothed": false,
         "userAdded": true
@@ -2866,7 +2866,7 @@
         "alwaysLoaded": false,
         "file": "assets/Aiming5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Aiming5.png\"}",
         "name": "Aiming5",
         "smoothed": false,
         "userAdded": true
@@ -2875,7 +2875,7 @@
         "alwaysLoaded": false,
         "file": "assets/Aiming6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Aiming6.png\"}",
         "name": "Aiming6",
         "smoothed": false,
         "userAdded": true
@@ -4563,6 +4563,170 @@
         "kind": "audio",
         "metadata": "",
         "name": "Spektrem - Shine [NCS Release].mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/human_enemy2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/human_enemy2.png\"}",
+        "name": "human_enemy2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Aiming7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Aiming7.png\"}",
+        "name": "Aiming7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Aiming8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Aiming8.png\"}",
+        "name": "Aiming8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Aiming9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Aiming9.png\"}",
+        "name": "Aiming9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Aiming10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Aiming10.png\"}",
+        "name": "Aiming10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Aiming11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Aiming11.png\"}",
+        "name": "Aiming11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Aiming12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Aiming12.png\"}",
+        "name": "Aiming12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Aiming13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Aiming13",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Aiming14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Aiming14",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Aiming15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Aiming15",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Aiming16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Aiming16",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Aiming17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Aiming17",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Aiming18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Aiming18",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite190.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite190.png\"}",
+        "name": "NewSprite190",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite191.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite191.png\"}",
+        "name": "NewSprite191",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite192.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite192.png\"}",
+        "name": "NewSprite192",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "launch-85216.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "launch-85216.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "hq-explosion-6288.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "hq-explosion-6288.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -9154,6 +9318,608 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "human_enemy2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 1,
+          "ReloadDuration": 3,
+          "MaxAmmo": 9999,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 9998,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        },
+        {
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+          "EnableAnimationChanges": true,
+          "EnableHorizontalFlipping": true,
+          "IdleAnimationName": "Idle",
+          "RunAnimationName": "Run",
+          "JumpAnimationName": "Jump",
+          "FallAnimationName": "Fall",
+          "ClimbAnimationName": "Climb",
+          "PlatformerBehavior": "PlatformerObject",
+          "Animation": "Animation",
+          "Flippable": "Flippable"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": false,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "human_enemy2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 20.5,
+                    "y": 82.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 54,
+                    "y": 68
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 80,
+                        "y": 1
+                      },
+                      {
+                        "x": 80,
+                        "y": 148
+                      },
+                      {
+                        "x": 19,
+                        "y": 148
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Aiming",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Aiming13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 19.5,
+                    "y": 42.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 99.5,
+                    "y": 66
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 80,
+                        "y": 1
+                      },
+                      {
+                        "x": 80,
+                        "y": 148
+                      },
+                      {
+                        "x": 19,
+                        "y": 148
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Aiming14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 19.5,
+                    "y": 42.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 99.5,
+                    "y": 66
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 80,
+                        "y": 1
+                      },
+                      {
+                        "x": 80,
+                        "y": 148
+                      },
+                      {
+                        "x": 19,
+                        "y": 148
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Aiming15",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 19.5,
+                    "y": 42.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 99.5,
+                    "y": 66
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 80,
+                        "y": 1
+                      },
+                      {
+                        "x": 80,
+                        "y": 148
+                      },
+                      {
+                        "x": 19,
+                        "y": 148
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Aiming16",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 19.5,
+                    "y": 42.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 99.5,
+                    "y": 66
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 80,
+                        "y": 1
+                      },
+                      {
+                        "x": 80,
+                        "y": 148
+                      },
+                      {
+                        "x": 19,
+                        "y": 148
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Aiming17",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 19.5,
+                    "y": 42.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 99.5,
+                    "y": 66
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 80,
+                        "y": 1
+                      },
+                      {
+                        "x": 80,
+                        "y": 148
+                      },
+                      {
+                        "x": 19,
+                        "y": 148
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Aiming18",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 19.5,
+                    "y": 42.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 99.5,
+                    "y": 66
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 1
+                      },
+                      {
+                        "x": 80,
+                        "y": 1
+                      },
+                      {
+                        "x": 80,
+                        "y": 148
+                      },
+                      {
+                        "x": 19,
+                        "y": 148
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Rocket",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FaceForward",
+          "type": "FaceForward::FaceForward",
+          "RotationSpeed": 0,
+          "OffsetAngle": 0,
+          "PreviousX": 0,
+          "PreviousY": 0,
+          "MovementDirection": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite190",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite190",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 23,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 25
+                      },
+                      {
+                        "x": 41,
+                        "y": 25
+                      },
+                      {
+                        "x": 41,
+                        "y": 38
+                      },
+                      {
+                        "x": 1,
+                        "y": 38
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite191",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 23,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 25
+                      },
+                      {
+                        "x": 41,
+                        "y": 25
+                      },
+                      {
+                        "x": 41,
+                        "y": 38
+                      },
+                      {
+                        "x": 1,
+                        "y": 38
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite192",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 23,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 25
+                      },
+                      {
+                        "x": 41,
+                        "y": 25
+                      },
+                      {
+                        "x": 41,
+                        "y": 38
+                      },
+                      {
+                        "x": 1,
+                        "y": 38
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Electricity",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Health",
+          "type": "number",
+          "value": 2
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite26",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 64
+                      },
+                      {
+                        "x": 26,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite27",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 26,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 0
+                      },
+                      {
+                        "x": 57,
+                        "y": 64
+                      },
+                      {
+                        "x": 26,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -9217,6 +9983,15 @@
       },
       {
         "objectName": "Spit"
+      },
+      {
+        "objectName": "Rocket"
+      },
+      {
+        "objectName": "Electricity"
+      },
+      {
+        "objectName": "human_enemy2"
       }
     ]
   },
@@ -9980,6 +10755,10 @@
         {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "ManualSecretCode",
+          "type": "SecretCode::ManualSecretCode"
         },
         {
           "name": "ObjectSpawner",
@@ -11260,6 +12039,10 @@
         {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "ManualSecretCode",
+          "type": "SecretCode::ManualSecretCode"
         },
         {
           "name": "ObjectSpawner",
@@ -19185,110 +19968,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Electricity",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "folded": true,
-              "name": "Health",
-              "type": "number",
-              "value": 2
-            }
-          ],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite26",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 26,
-                            "y": 0
-                          },
-                          {
-                            "x": 57,
-                            "y": 0
-                          },
-                          {
-                            "x": 57,
-                            "y": 64
-                          },
-                          {
-                            "x": 26,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite27",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 26,
-                            "y": 0
-                          },
-                          {
-                            "x": 57,
-                            "y": 0
-                          },
-                          {
-                            "x": 57,
-                            "y": 64
-                          },
-                          {
-                            "x": 26,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "",
           "bold": false,
           "italic": false,
@@ -22222,16 +22901,13 @@
             ]
           },
           {
-            "folderName": "Enemies",
+            "folderName": "Scene Enemies",
             "children": [
               {
                 "objectName": "Health_Placeholder"
               },
               {
                 "objectName": "Tall_Dinosaur_Health"
-              },
-              {
-                "objectName": "Electricity"
               },
               {
                 "objectName": "Tall_Dinosaur"
@@ -24841,6 +25517,10 @@
           "type": "FlippableCapability::FlippableBehavior"
         },
         {
+          "name": "ManualSecretCode",
+          "type": "SecretCode::ManualSecretCode"
+        },
+        {
           "name": "ObjectSpawner",
           "type": "ObjectSpawner::ObjectSpawner"
         },
@@ -25522,6 +26202,10 @@
         {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "ManualSecretCode",
+          "type": "SecretCode::ManualSecretCode"
         },
         {
           "name": "ObjectSpawner",
@@ -32651,6 +33335,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Collision",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -33736,6 +34421,10 @@
         {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "ManualSecretCode",
+          "type": "SecretCode::ManualSecretCode"
         },
         {
           "name": "ObjectSpawner",
@@ -43308,6 +43997,10 @@
           "type": "FlippableCapability::FlippableBehavior"
         },
         {
+          "name": "ManualSecretCode",
+          "type": "SecretCode::ManualSecretCode"
+        },
+        {
           "name": "ObjectSpawner",
           "type": "ObjectSpawner::ObjectSpawner"
         },
@@ -43991,6 +44684,10 @@
           "type": "FlippableCapability::FlippableBehavior"
         },
         {
+          "name": "ManualSecretCode",
+          "type": "SecretCode::ManualSecretCode"
+        },
+        {
           "name": "ObjectSpawner",
           "type": "ObjectSpawner::ObjectSpawner"
         },
@@ -44064,7 +44761,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4303403802207693,
+        "zoomFactor": 0.6304260541825766,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -44079,8 +44776,8 @@
           "name": "BG",
           "persistentUuid": "8d20607f-b20f-49d6-bb60-f0e6002b83f6",
           "width": 5177,
-          "x": 0,
-          "y": -1600,
+          "x": 39,
+          "y": -1888,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -44120,11 +44817,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 704,
+          "height": 608,
           "layer": "",
           "name": "Ground",
           "persistentUuid": "0373f921-0c51-4d13-921b-416d35fe25fb",
-          "width": 5216,
+          "width": 7040,
           "x": -1728,
           "y": 1024,
           "zOrder": 4,
@@ -44136,11 +44833,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
+          "height": 75,
           "layer": "",
           "name": "Greenery",
           "persistentUuid": "53e58cab-2e96-4963-b758-8ca9c9493631",
-          "width": 5216,
+          "width": 7040,
           "x": -1728,
           "y": 1024,
           "zOrder": 5,
@@ -44172,8 +44869,8 @@
           "name": "BG",
           "persistentUuid": "99ccb6df-40f8-4adb-b7c5-fa91b076f151",
           "width": 5177,
-          "x": -5113,
-          "y": -1600,
+          "x": -5074,
+          "y": -1888,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -44188,8 +44885,8 @@
           "name": "Red_Raptor_NPC",
           "persistentUuid": "d6f5992c-20a9-4a17-915a-46e9c6c0e5d3",
           "width": 343,
-          "x": -536,
-          "y": 882,
+          "x": -567,
+          "y": 896,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -44267,6 +44964,702 @@
           "x": 1652,
           "y": 960,
           "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Front",
+          "name": "Enter_Visitor_Center",
+          "persistentUuid": "53d47d6a-8d0c-4e81-b934-6d841f606a0f",
+          "width": 0,
+          "x": 192,
+          "y": 297,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Compy_Nest",
+          "persistentUuid": "0ff6e71f-ccc5-4a25-8e9b-cc76f7a70ab3",
+          "width": 0,
+          "x": 2336,
+          "y": 864,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Crate",
+          "persistentUuid": "41089f58-619c-4eb1-9fac-f5d255a1a881",
+          "width": 0,
+          "x": 896,
+          "y": 896,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Crate",
+          "persistentUuid": "6160c38e-2dfe-462e-a56d-7c50dca544af",
+          "width": 0,
+          "x": 928,
+          "y": 960,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Crate",
+          "persistentUuid": "651f523f-4e1b-4887-9160-57c20d63cd3f",
+          "width": 0,
+          "x": 864,
+          "y": 960,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 160,
+          "layer": "",
+          "name": "Destructible_Crate",
+          "persistentUuid": "5e56553d-bb3d-4e71-8f2b-84847d00057f",
+          "width": 160,
+          "x": 512,
+          "y": 864,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 608,
+          "layer": "",
+          "name": "Concrete_Wall",
+          "persistentUuid": "714dc4b1-44ea-4f2e-a13d-3d29be528e4d",
+          "width": 2880,
+          "x": 5312,
+          "y": 1024,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1024,
+          "layer": "",
+          "name": "Boss_Barrier",
+          "persistentUuid": "f7e41564-32e6-4f1b-9102-5e6432569e75",
+          "width": 64,
+          "x": 5248,
+          "y": 0,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Front",
+          "name": "Defeat_Him",
+          "persistentUuid": "f0c5117a-626c-40ab-8ca2-bba2331f1f04",
+          "width": 0,
+          "x": 192,
+          "y": 224,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden Items",
+          "name": "Human_Enemy_2_Health",
+          "persistentUuid": "44a2c651-84b2-4b25-96f3-7d7f7e04ea76",
+          "width": 0,
+          "x": 96,
+          "y": 253,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1216,
+          "layer": "",
+          "name": "Defeat_Him_Objective_Marker",
+          "persistentUuid": "4f110239-287d-4c2a-9707-46e0ad1e51cf",
+          "width": 64,
+          "x": 3264,
+          "y": -160,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 195,
+          "layer": "",
+          "name": "human_enemy2",
+          "persistentUuid": "6da49566-418c-4e2f-bafa-1bf8e08233eb",
+          "width": 130,
+          "x": 5051,
+          "y": 936,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Crate",
+          "persistentUuid": "4764cbb3-eb2a-4004-ba65-dd9cb60d2ac1",
+          "width": 0,
+          "x": 4576,
+          "y": 768,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Crate",
+          "persistentUuid": "251b34f5-2be6-4010-8bf1-f8292f29cc44",
+          "width": 0,
+          "x": 4576,
+          "y": 960,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Crate",
+          "persistentUuid": "82667401-bc70-4bb9-b0ea-c272b7fe4324",
+          "width": 0,
+          "x": 4576,
+          "y": 896,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Crate",
+          "persistentUuid": "8bdbbc00-93bd-4e7e-b4d7-514c932272d4",
+          "width": 0,
+          "x": 4576,
+          "y": 832,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Crate",
+          "persistentUuid": "a5074473-2ccd-43ce-8c8d-601cb24c7720",
+          "width": 0,
+          "x": 4448,
+          "y": 768,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Crate",
+          "persistentUuid": "4e5f6be1-0924-4102-a793-6aaef683a26c",
+          "width": 0,
+          "x": 4448,
+          "y": 960,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Crate",
+          "persistentUuid": "3aa426dc-b6d6-46d0-8d9f-8fb741d2982b",
+          "width": 0,
+          "x": 4448,
+          "y": 896,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Crate",
+          "persistentUuid": "093913d4-9c0a-45cd-bece-eaa2d03eb42f",
+          "width": 0,
+          "x": 4448,
+          "y": 832,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Crate",
+          "persistentUuid": "627ed36f-fb0e-47ff-91ad-9d33d019a7ba",
+          "width": 0,
+          "x": 4512,
+          "y": 768,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Crate",
+          "persistentUuid": "26cb5b84-ebda-4e16-a30b-17b09fe08b91",
+          "width": 0,
+          "x": 4512,
+          "y": 960,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Crate",
+          "persistentUuid": "7496f51a-4c7c-4930-b522-0b31f6a95d1a",
+          "width": 0,
+          "x": 4512,
+          "y": 896,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Crate",
+          "persistentUuid": "ac43caad-d2c1-47b3-99ef-c750bba2612c",
+          "width": 0,
+          "x": 4512,
+          "y": 832,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Destructible_Crate",
+          "persistentUuid": "9bccecdf-c45e-4842-b8da-009cbe9e9298",
+          "width": 0,
+          "x": 3808,
+          "y": 768,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Destructible_Crate",
+          "persistentUuid": "cdaf2431-c1f8-40bb-9b14-99e1e5cacb60",
+          "width": 0,
+          "x": 3808,
+          "y": 960,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Destructible_Crate",
+          "persistentUuid": "dd6fcd2a-2a41-4a1f-be0a-633d28d2bad6",
+          "width": 0,
+          "x": 3808,
+          "y": 896,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Destructible_Crate",
+          "persistentUuid": "fbd94631-39b7-435a-b46f-e51ee1f68190",
+          "width": 0,
+          "x": 3808,
+          "y": 832,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Destructible_Crate",
+          "persistentUuid": "a0d14b3d-8a23-4b06-b4f8-731d005d895f",
+          "width": 0,
+          "x": 3936,
+          "y": 768,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Destructible_Crate",
+          "persistentUuid": "8e179065-0eba-41bc-b57b-8807f6004a1a",
+          "width": 0,
+          "x": 3936,
+          "y": 960,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Destructible_Crate",
+          "persistentUuid": "108f0fb9-c513-4447-a9ea-8a97368b2d17",
+          "width": 0,
+          "x": 3936,
+          "y": 896,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Destructible_Crate",
+          "persistentUuid": "9e51d264-ea17-43ee-b6e6-14d7dc247f93",
+          "width": 0,
+          "x": 3936,
+          "y": 832,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Destructible_Crate",
+          "persistentUuid": "273faeb3-0e65-4ca7-83fb-3b011a112389",
+          "width": 0,
+          "x": 3872,
+          "y": 768,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Destructible_Crate",
+          "persistentUuid": "c68460cb-e5ff-45d6-a95e-25ca969970c9",
+          "width": 0,
+          "x": 3872,
+          "y": 960,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Destructible_Crate",
+          "persistentUuid": "7ea0483b-b2de-406c-8181-37155b2fa9a5",
+          "width": 0,
+          "x": 3872,
+          "y": 896,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Destructible_Crate",
+          "persistentUuid": "87ce80d0-c343-4985-967f-f3af389f211f",
+          "width": 0,
+          "x": 3872,
+          "y": 832,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 864,
+          "layer": "",
+          "name": "Background_Walls",
+          "persistentUuid": "105e6234-5303-469d-b156-c044d138a95e",
+          "width": 1408,
+          "x": 6784,
+          "y": 160,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Electricity",
+          "persistentUuid": "beff13be-6b70-4085-90e1-11be42c5844f",
+          "width": 0,
+          "x": 6720,
+          "y": 448,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Electricity",
+          "persistentUuid": "03c491e5-5832-4160-bf2c-852a52c1f730",
+          "width": 0,
+          "x": 6720,
+          "y": 576,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Electricity",
+          "persistentUuid": "06443895-bebc-42ba-ae33-8d73c413b07b",
+          "width": 0,
+          "x": 6720,
+          "y": 512,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Electricity",
+          "persistentUuid": "1a58ce2b-96dc-415c-9cd9-d7d15f0a1481",
+          "width": 0,
+          "x": 6720,
+          "y": 960,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Electricity",
+          "persistentUuid": "3f83bb2f-3a43-4ece-ad25-b1892c5f046b",
+          "width": 0,
+          "x": 6720,
+          "y": 896,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Electricity",
+          "persistentUuid": "3d8b269b-a015-4421-ab6f-2dd7f1cb6b8f",
+          "width": 0,
+          "x": 6720,
+          "y": 832,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Electricity",
+          "persistentUuid": "6c4b5289-ae69-470b-8ed8-f16786a4730b",
+          "width": 0,
+          "x": 6720,
+          "y": 768,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Electricity",
+          "persistentUuid": "491f68f5-2868-46fa-b4b8-2b460e5bdb8d",
+          "width": 0,
+          "x": 6720,
+          "y": 704,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Electricity",
+          "persistentUuid": "e187d9b6-7cdb-4aff-8088-43487e15def2",
+          "width": 0,
+          "x": 6720,
+          "y": 640,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -44411,6 +45804,220 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Enter_Visitor_Center",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Text_AutoTyping",
+              "type": "AutoTyping::Text_AutoTyping",
+              "Interval": 0.05,
+              "CharacterJustAdded": false,
+              "CurrentCharacter": ""
+            }
+          ],
+          "string": "Enter Visitor Center",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Boss_Barrier",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Barrier",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Barrier",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "7dcab69a6f649e686d80ac37d60d80e382638df4e2306f422dab47e3d266044d",
+          "name": "Human_Enemy_2_Health",
+          "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "InitialValue": 10,
+            "MaxValue": 10,
+            "BarTopPadding": 8,
+            "BarRightPadding": 10,
+            "BarBottomPadding": 8,
+            "BarLeftPadding": 10,
+            "PreviousHighValueDuration": 0
+          },
+          "childrenContent": {
+            "Background": {
+              "bottomMargin": 8,
+              "height": 35,
+              "leftMargin": 10,
+              "rightMargin": 10,
+              "texture": "Wood Bar Border.png",
+              "tiled": true,
+              "topMargin": 8,
+              "width": 397
+            },
+            "Buffer": {
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Shaded Green Fill Bar.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 32
+            },
+            "FillBar": {
+              "bottomMargin": 9,
+              "height": 19,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Shaded Green Fill Bar.png",
+              "tiled": false,
+              "topMargin": 9,
+              "width": 19
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "10 / 10",
+              "font": "",
+              "textAlignment": "center",
+              "characterSize": 16,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              }
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Defeat_Him",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Text_AutoTyping",
+              "type": "AutoTyping::Text_AutoTyping",
+              "Interval": 0.05,
+              "CharacterJustAdded": false,
+              "CurrentCharacter": ""
+            }
+          ],
+          "string": "Defeat The Human",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Defeat_Him_Objective_Marker",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Barrier",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Barrier",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -44423,7 +46030,22 @@
             "objectName": "Barrier"
           },
           {
+            "objectName": "Boss_Barrier"
+          },
+          {
+            "objectName": "Defeat_Him_Objective_Marker"
+          },
+          {
             "objectName": "Red_Raptor_Dialogue"
+          },
+          {
+            "objectName": "Enter_Visitor_Center"
+          },
+          {
+            "objectName": "Human_Enemy_2_Health"
+          },
+          {
+            "objectName": "Defeat_Him"
           }
         ]
       },
@@ -44453,193 +46075,14 @@
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-              },
-              "parameters": [
-                "Red_Raptor_NPC",
-                "Animation"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "Score",
-                "=",
-                "\"Score: \" + GlobalVariableString(Score)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SetCameraCenterX"
-              },
-              "parameters": [
-                "",
-                "=",
-                "Raptor.X() * 0.1",
-                "\"Background\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Escape"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Level Select\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
-              },
-              "parameters": [
-                "Health",
-                "<=",
-                "0",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Death Screen\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-              },
-              "parameters": [
-                "Raptor",
-                "PlatformerObject"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-              },
-              "parameters": [
-                "Health",
-                "+",
-                "0.05",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "Red_Raptor_NPC",
-                "ButtonFSM",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
                 "value": "ActivateBehavior"
               },
               "parameters": [
-                "Red_Raptor_Dialogue",
+                "Defeat_Him",
                 "Text_AutoTyping",
-                "yes"
+                "no"
               ]
             },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
-              },
-              "parameters": [
-                "Red_Raptor_NPC",
-                "Animation"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "hiss.mp3",
-                "",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-              },
-              "parameters": [
-                "Red_Raptor_NPC",
-                "Animation"
-              ]
-            }
-          ],
-          "actions": [
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
@@ -44652,11 +46095,238 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Raptor"
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "All Time Events",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Score",
+                    "=",
+                    "\"Score: \" + GlobalVariableString(Score)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Raptor.X() * 0.1",
+                    "\"Background\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Escape"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level Select\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Escape"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level Select\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+                  },
+                  "parameters": [
+                    "Health",
+                    "<=",
+                    "0",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Death Screen\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "Raptor",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "Health",
+                    "+",
+                    "0.05",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "Red_Raptor_NPC",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Red_Raptor_Dialogue",
+                    "Text_AutoTyping",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                  },
+                  "parameters": [
+                    "Red_Raptor_NPC",
+                    "Animation"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "hiss.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "Red_Raptor_NPC",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+                  },
+                  "parameters": [
+                    "Red_Raptor_NPC",
+                    "Animation"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "Raptor"
+            }
+          ],
+          "parameters": []
         },
         {
           "colorB": 228,
@@ -44668,73 +46338,6 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "Raptor",
-                    "Animation",
-                    "=",
-                    "\"Raptor_Attack\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "Raptor",
-                    "Steel_Fence_Destructible",
-                    "50",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Steel_Fence_Destructible",
-                    "Health",
-                    "-",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Steel_Fence_Destructible",
-                    "Health",
-                    "<=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Steel_Fence_Destructible",
-                    ""
-                  ]
-                }
-              ]
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -45056,29 +46659,61 @@
                   ]
                 }
               ]
-            },
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Human Mini Boss",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "SceneInstancesCount"
+                    "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Electricity",
-                    "Electricity",
-                    "<=",
-                    "20"
+                    "Raptor",
+                    "Defeat_Him_Objective_Marker",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Human_Enemy_2_Health",
+                    "\"Front\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Defeat_Him",
+                    "Text_AutoTyping",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Steel_Fence_Destructible",
+                    "Defeat_Him_Objective_Marker",
                     ""
                   ]
                 }
@@ -45089,24 +46724,308 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SceneInstancesCount"
+                    "value": "Distance"
                   },
                   "parameters": [
-                    "",
-                    "Steel_Fence_Destructible",
-                    "<=",
-                    "0"
+                    "Raptor",
+                    "human_enemy2",
+                    "100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Raptor",
+                    "Animation",
+                    "endsWith",
+                    "\"Raptor_Walk_Attack\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "Human_Enemy_2_Health",
+                    "-",
+                    "1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Raptor",
+                    "human_enemy2",
+                    "2000",
+                    ""
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+                    "value": "FireBullet::FireBullet::FireTowardObject"
                   },
                   "parameters": [
-                    "Red_Raptor_NPC",
-                    "Animation"
+                    "human_enemy2",
+                    "FireBullet",
+                    "human_enemy2.PointX(\"Origin\")",
+                    "human_enemy2.PointY(\"Origin\")",
+                    "Rocket",
+                    "Raptor",
+                    "400",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "human_enemy2",
+                    "Animation",
+                    "=",
+                    "\"Aiming\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::HasJustFired"
+                  },
+                  "parameters": [
+                    "human_enemy2",
+                    "FireBullet",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "launch-85216.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Rocket",
+                    "human_enemy2",
+                    "1000",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Rocket",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Rocket",
+                    "Raptor",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "Health",
+                    "-",
+                    "25",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "hq-explosion-6288.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Rocket",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Rocket",
+                    "Crate",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "hq-explosion-6288.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Rocket",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Crate",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+                  },
+                  "parameters": [
+                    "Human_Enemy_2_Health",
+                    "<=",
+                    "0",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "human_enemy2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Boss_Barrier",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Human_Enemy_2_Health",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Defeat_Him",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Score",
+                    "+",
+                    "10"
                   ]
                 }
               ]
@@ -45384,6 +47303,184 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Compy Nest",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ObjectSpawner::ObjectSpawner::SpawnObject"
+                  },
+                  "parameters": [
+                    "Compy_Nest",
+                    "ObjectSpawner",
+                    "Compy",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Raptor",
+                    "Compy_Nest",
+                    "100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Raptor",
+                    "Animation",
+                    "endsWith",
+                    "\"Raptor_Walk_Attack\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Compy_Nest",
+                    "Health",
+                    "-",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "Raptor",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Raptor",
+                    "Compy_Nest",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Compy_Nest",
+                    "Health",
+                    "-",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Compy_Nest",
+                    "Health",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Compy_Nest",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Score",
+                    "+",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "Health",
+                    "+",
+                    "2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Compy_Nest_Explaination",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -45545,12 +47642,20 @@
           "type": "EffectCapability::EffectBehavior"
         },
         {
+          "name": "FaceForward",
+          "type": "FaceForward::FaceForward"
+        },
+        {
           "name": "FireBullet",
           "type": "FireBullet::FireBullet"
         },
         {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "ManualSecretCode",
+          "type": "SecretCode::ManualSecretCode"
         },
         {
           "name": "ObjectSpawner",
@@ -46252,6 +48357,10 @@
           "type": "FlippableCapability::FlippableBehavior"
         },
         {
+          "name": "ManualSecretCode",
+          "type": "SecretCode::ManualSecretCode"
+        },
+        {
           "name": "ObjectSpawner",
           "type": "ObjectSpawner::ObjectSpawner"
         },
@@ -46321,7 +48430,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.09812623734904626,
+        "zoomFactor": 0.2743341866138312,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -46448,7 +48557,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Interactive Game Design (IGD) Team: \nTeam :3\nNicholas Talley\nEligh Tringali \nGabriel Vue\n\nArt Team:\nNicholas Talley\nEligh Tringali \nGabriel Vue\n\nAnimation:\nNicholas Talley\nEligh Tringali \nGabriel Vue\n\nEnvironmental Art:\nEligh Tringali \nGabriel Vue\n\nEnvironment Content:\nEligh Tringali \nGabriel Vue\n\nUser Interface:\nEligh Tringali\n\nAudio Team:\nChase Hacker\nNicholas Talley\nEligh Tringali \nGabriel Vue\n\nDialogue:\nChase Hacker\nEligh Tringali \n\nCustom Music:\nNicholas Talley\nEligh Tringali \nGabriel Vue\n\nFeatured Music:\nSpektrem - Shine\n\nDesign Team:\nNicholas Talley\nEligh Tringali \nGabriel Vue\n\nWorld Design:\nEligh Tringali \nGabriel Vue\n\nTechnical Design:\nEligh Tringali \nGabriel Vue\n\nCharacters & Combat:\nNicholas Talley\nEligh Tringali \nGabriel Vue\n\nProgression Design:\nEligh Tringali \nGabriel Vue\n\nGameplay Design:\nEligh Tringali \nGabriel Vue\n\nLevel Design:\nEligh Tringali \nGabriel Vue\n\nBot AI Design:\nEligh Tringali \nGabriel Vue\n\nNarrative Design:\nEligh Tringali\n\nUX UI:\nEligh Tringali\n\nManagement:\nEligh Tringali\n\nEngineering Team:\nNicholas Talley\nEligh Tringali \nGabriel Vue\n\n\nGame Developed Using:\nGDevelop\nPiskel\nGitHub\nVisual Studio Code\nOnline Sequencer\nPixabay\n\nExternal Team\nChase Hacker\nNoah Layton\n\nSpecial Thanks To:\nCenter for Advanced Research & Technology (CART)\nRobert Delarosa\nRick Watson\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThank you for playing!\n",
+          "string": "Interactive Game Design (IGD) Team: \nTeam :3\nNicholas Talley\nEligh Tringali \nGabriel Vue\n\nArt Team:\nNicholas Talley\nEligh Tringali \nGabriel Vue\n\nAnimation:\nNicholas Talley\nEligh Tringali \nGabriel Vue\n\nEnvironmental Art:\nEligh Tringali \nGabriel Vue\n\nEnvironment Content:\nEligh Tringali \nGabriel Vue\n\nUser Interface:\nEligh Tringali\n\nAudio Team:\nChase Hacker\nNicholas Talley\nEligh Tringali \nGabriel Vue\n\nDialogue:\nChase Hacker\nEligh Tringali \n\nCustom Music:\nNicholas Talley\nEligh Tringali \nGabriel Vue\n\nFeatured Music:\nSpektrem - Shine\n\nDesign Team:\nNicholas Talley\nEligh Tringali \nGabriel Vue\n\nWorld Design:\nEligh Tringali \nGabriel Vue\n\nTechnical Design:\nEligh Tringali \nGabriel Vue\n\nCharacters & Combat:\nNicholas Talley\nEligh Tringali \nGabriel Vue\n\nProgression Design:\nEligh Tringali \nGabriel Vue\n\nGameplay Design:\nEligh Tringali \nGabriel Vue\n\nLevel Design:\nEligh Tringali \nGabriel Vue\n\nBot AI Design:\nEligh Tringali \nGabriel Vue\n\nNarrative Design:\nEligh Tringali\n\nUX UI:\nEligh Tringali\n\nManagement:\nEligh Tringali\n\nOk, seriously now: \nProject Team:\nNicholas Talley\nEligh Tringali \nGabriel Vue\n\n\nGame Developed Using:\nGDevelop\nPiskel\nGitHub\nVisual Studio Code\nOnline Sequencer\nPixabay\n\nExternal Team\nChase Hacker\nNoah Layton\n\nSpecial Thanks To:\nCenter for Advanced Research & Technology (CART)\nRobert Delarosa\nRick Watson\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThank you for playing!\n",
           "font": "",
           "textAlignment": "center",
           "characterSize": 30,
@@ -46802,7 +48911,7 @@
               "parameters": [
                 "",
                 "=",
-                "4800",
+                "5000",
                 "",
                 ""
               ]
@@ -46969,6 +49078,10 @@
         {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FaceForward",
+          "type": "FaceForward::FaceForward"
         },
         {
           "name": "FireBullet",
@@ -47592,6 +49705,487 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "author": "Tristan Rhodes (https://victrisgames.itch.io/)",
+      "category": "Movement",
+      "extensionNamespace": "",
+      "fullName": "Face Forward",
+      "helpPath": "https://victrisgames.itch.io/extension-faceforward",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWNhcnQtYXJyb3ctcmlnaHQiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNOSwyMEEyLDIgMCAwLDEgNywyMkEyLDIgMCAwLDEgNSwyMEEyLDIgMCAwLDEgNywxOEEyLDIgMCAwLDEgOSwyME0xNywxOEEyLDIgMCAwLDAgMTUsMjBBMiwyIDAgMCwwIDE3LDIyQTIsMiAwIDAsMCAxOSwyMEEyLDIgMCAwLDAgMTcsMThNNy4yLDE0LjYzQzcuMTksMTQuNjcgNy4xOSwxNC43MSA3LjIsMTQuNzVBMC4yNSwwLjI1IDAgMCwwIDcuNDUsMTVIMTlWMTdIN0EyLDIgMCAwLDEgNSwxNUM1LDE0LjY1IDUuMDcsMTQuMzEgNS4yNCwxNEw2LjYsMTEuNTlMMyw0SDFWMkg0LjI3TDUuMjEsNEgyMEExLDEgMCAwLDEgMjEsNUMyMSw1LjE3IDIwLjk1LDUuMzQgMjAuODgsNS41TDE3LjMsMTJDMTYuOTQsMTIuNjIgMTYuMjcsMTMgMTUuNTUsMTNIOC4xTDcuMiwxNC42M005LDkuNUgxM1YxMS41TDE2LDguNUwxMyw1LjVWNy41SDlWOS41WiIgLz48L3N2Zz4=",
+      "name": "FaceForward",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/cart-arrow-right.svg",
+      "shortDescription": "Face object towards the direction of movement.",
+      "version": "0.1.2",
+      "description": [
+        "Set the angle of the object to match the direction of movement.",
+        "",
+        "This works with any kind of movement (forces, physics, dragging, etc) because it tracks the object position to compute the direction of movement."
+      ],
+      "origin": {
+        "identifier": "FaceForward",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "object",
+        "rotation",
+        "movement",
+        "direction"
+      ],
+      "authorIds": [
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1",
+        "jy7FXnGX0ZZcWfrAI9YuQaeIphi1"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Face object towards the direction of movement.",
+          "fullName": "Face forward",
+          "name": "FaceForward",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Make sure the object has moved"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "FaceForward::FaceForward::PropertyPreviousX"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "!=",
+                            "Object.CenterX()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FaceForward::FaceForward::PropertyPreviousY"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "!=",
+                            "Object.CenterY()"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Save movement direction as a property so the user can use it"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FaceForward::FaceForward::SetPropertyMovementDirection"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "AngleBetweenPositions(Object.Behavior::PropertyPreviousX(), Object.Behavior::PropertyPreviousY(), Object.CenterX(), Object.CenterY())"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Rotate the object to face the direction it is moving towards"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "RotateTowardAngle"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Object.Behavior::PropertyMovementDirection() + Object.Behavior::OffsetAngle()",
+                            "abs(Object.Behavior::PropertyRotationSpeed())",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Save the current position to be used in the next frame"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FaceForward::FaceForward::SetPropertyPreviousX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.CenterX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FaceForward::FaceForward::SetPropertyPreviousY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Object.CenterY()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "FaceForward::FaceForward",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set rotation speed (degrees per second).  Use \"0\" for immediate turning.",
+              "fullName": "Set rotation speed",
+              "functionType": "Action",
+              "name": "SetRotationSpeed",
+              "sentence": "Set rotation speed of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FaceForward::FaceForward::SetPropertyRotationSpeed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"RotationSpeed\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "FaceForward::FaceForward",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Rotation Speed",
+                  "name": "RotationSpeed",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set offset angle.",
+              "fullName": "Set offset angle",
+              "functionType": "Action",
+              "name": "SetOffsetAngle",
+              "sentence": "Set offset angle of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FaceForward::FaceForward::SetPropertyOffsetAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"OffsetAngle\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "FaceForward::FaceForward",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Offset angle",
+                  "name": "OffsetAngle",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Rotation speed (in degrees per second).",
+              "fullName": "Rotation speed",
+              "functionType": "Expression",
+              "name": "RotationSpeed",
+              "sentence": "Rotation speed of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyRotationSpeed()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "FaceForward::FaceForward",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Offset angle.",
+              "fullName": "Offset angle",
+              "functionType": "Expression",
+              "name": "OffsetAngle",
+              "sentence": "Rotation speed of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyOffsetAngle()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "FaceForward::FaceForward",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Direction the object is moving (in degrees).",
+              "fullName": "Movement direction",
+              "functionType": "Expression",
+              "name": "MovementDirection",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyMovementDirection()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "FaceForward::FaceForward",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Rotation speed (degrees per second)",
+              "description": "Use \"0\" for immediate turning.",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "RotationSpeed"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "DegreeAngle",
+              "label": "Offset angle",
+              "description": "Can be used when the image of the object is not facing to the right.",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "OffsetAngle"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "unit": "Pixel",
+              "label": "Previous X position",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "PreviousX"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "unit": "Pixel",
+              "label": "Previous Y position",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "PreviousY"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "unit": "DegreeAngle",
+              "label": "Direction the object is moving (in degrees)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "MovementDirection"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
     {
       "author": "@4ian, Tristan Rhodes (https://victrisgames.itch.io/)",
       "category": "Movement",
