@@ -90,7 +90,8 @@
       "gabevue23"
     ],
     "categories": [
-      "platformer"
+      "platformer",
+      "adventure"
     ],
     "playableDevices": [
       "keyboard"
@@ -6162,6 +6163,15 @@
         "name": "The Park BG-1.png2.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite233.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite233",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -13358,7 +13368,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5695357392228793,
+        "zoomFactor": 0.3463180425540989,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13398,13 +13408,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1088,
+          "height": 1280,
           "layer": "",
           "name": "Screen",
           "persistentUuid": "c4ea9053-25db-448d-8474-13053e053939",
-          "width": 1920,
-          "x": 0,
-          "y": 0,
+          "width": 2176,
+          "x": -128,
+          "y": -64,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -14646,7 +14656,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.49877967919540617,
+        "zoomFactor": 0.4825093061260488,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -15063,7 +15073,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Audio Log 3",
+              "string": "Audio Log 2",
               "font": "Kenney Mini Square.ttf",
               "textAlignment": "center",
               "characterSize": 45,
@@ -27018,7 +27028,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "All Time Events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -27122,7 +27131,7 @@
                   },
                   "parameters": [
                     "",
-                    "Escape"
+                    "m"
                   ]
                 }
               ],
@@ -28768,7 +28777,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Tall Dinosaur",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -30380,7 +30388,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2022070730360276,
+        "zoomFactor": 0.17708595277544675,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -32583,6 +32591,22 @@
           "x": 224,
           "y": 256,
           "zOrder": 104,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 3136,
+          "layer": "",
+          "name": "Music_Queue",
+          "persistentUuid": "46a4eab6-9a2b-4c49-8d23-09e15125574e",
+          "width": 64,
+          "x": 2976,
+          "y": -1120,
+          "zOrder": 105,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -36467,6 +36491,48 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Music_Queue",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite233",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -36600,6 +36666,9 @@
           },
           {
             "objectName": "Enter_Building"
+          },
+          {
+            "objectName": "Music_Queue"
           }
         ]
       },
@@ -36677,7 +36746,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "All Time Events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -36763,7 +36831,7 @@
                   },
                   "parameters": [
                     "",
-                    "Escape"
+                    "m"
                   ]
                 }
               ],
@@ -38128,7 +38196,26 @@
                     "Defeat_Him",
                     "\"Front\""
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Raptor",
+                    "Music_Queue",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "value": "PauseMusicCanal"
@@ -38148,6 +38235,15 @@
                     "3",
                     "yes",
                     "100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Music_Queue",
                     ""
                   ]
                 }
@@ -46373,7 +46469,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "All Time Events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -46489,7 +46584,7 @@
                   },
                   "parameters": [
                     "",
-                    "Escape"
+                    "m"
                   ]
                 }
               ],
@@ -52302,7 +52397,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "All Time Events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -52350,33 +52444,7 @@
                   },
                   "parameters": [
                     "",
-                    "Escape"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Level Select\"",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Escape"
+                    "m"
                   ]
                 }
               ],
@@ -59173,7 +59241,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "All Time Events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -59221,7 +59288,7 @@
                   },
                   "parameters": [
                     "",
-                    "Escape"
+                    "m"
                   ]
                 }
               ],
@@ -64167,7 +64234,7 @@
               },
               "parameters": [
                 "",
-                "Escape"
+                "m"
               ]
             }
           ],
@@ -65544,7 +65611,7 @@
                   },
                   "parameters": [
                     "",
-                    "Escape"
+                    "m"
                   ]
                 }
               ],
@@ -65611,7 +65678,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Menu_Screen\"",
+                    "\"Audio Logs\"",
                     ""
                   ]
                 },
