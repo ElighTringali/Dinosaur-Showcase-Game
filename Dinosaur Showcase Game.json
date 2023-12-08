@@ -6208,6 +6208,14 @@
           "Flippable": "Flippable"
         },
         {
+          "name": "PlatformerMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::PlatformerMultitouchMapper",
+          "Property": "PlatformerObject",
+          "ControllerIdentifier": 1,
+          "JoystickIdentifier": "Primary",
+          "JumpButton": "A"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "ladderClimbingSpeed": 150,
@@ -12571,7 +12579,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41630252177333416,
+        "zoomFactor": 0.4027225833325927,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13323,6 +13331,10 @@
           "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
         },
         {
+          "name": "PlatformerMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::PlatformerMultitouchMapper"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -13368,7 +13380,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3463180425540989,
+        "zoomFactor": 0.30329334977364214,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13400,22 +13412,6 @@
           "x": 896,
           "y": 352,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1280,
-          "layer": "",
-          "name": "Screen",
-          "persistentUuid": "c4ea9053-25db-448d-8474-13053e053939",
-          "width": 2176,
-          "x": -128,
-          "y": -64,
-          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13508,6 +13504,22 @@
           "x": 1536,
           "y": 416,
           "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1280,
+          "layer": "",
+          "name": "Screen",
+          "persistentUuid": "b659d456-9687-470c-93cc-fa6499964992",
+          "width": 2176,
+          "x": -128,
+          "y": -64,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13617,7 +13629,15 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "NewSprite",
@@ -14141,6 +14161,16 @@
           "conditions": [
             {
               "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Level_Complete1",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
@@ -14166,6 +14196,16 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Level_Complete2",
+                ">=",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "ButtonStates::ButtonFSM::IsClicked"
@@ -14220,6 +14260,16 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Audio_Logs_Found",
+                ">=",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "ButtonStates::ButtonFSM::IsClicked"
@@ -14378,6 +14428,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -14393,7 +14448,7 @@
           "isLocked": false,
           "name": "Audio Logs",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -14425,7 +14480,7 @@
           "isLocked": false,
           "name": "Video Message",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -14457,7 +14512,7 @@
           "isLocked": false,
           "name": "Level 3",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -14489,7 +14544,7 @@
           "isLocked": false,
           "name": "Level 2",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -14609,6 +14664,10 @@
         {
           "name": "PlatformerCharacterAnimator",
           "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+        },
+        {
+          "name": "PlatformerMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::PlatformerMultitouchMapper"
         },
         {
           "name": "PlatformerObject",
@@ -15427,6 +15486,16 @@
           "conditions": [
             {
               "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Audio_Logs_Found",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
@@ -15464,6 +15533,16 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Audio_Logs_Found",
+                ">=",
+                "2"
+              ]
+            },
             {
               "type": {
                 "value": "ButtonStates::ButtonFSM::IsClicked"
@@ -15505,6 +15584,16 @@
           "conditions": [
             {
               "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Audio_Logs_Found",
+                ">=",
+                "3"
+              ]
+            },
+            {
+              "type": {
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
@@ -15544,6 +15633,16 @@
           "conditions": [
             {
               "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Audio_Logs_Found",
+                ">=",
+                "4"
+              ]
+            },
+            {
+              "type": {
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
@@ -15581,6 +15680,16 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Audio_Logs_Found",
+                ">=",
+                "4"
+              ]
+            },
             {
               "type": {
                 "value": "ButtonStates::ButtonFSM::IsClicked"
@@ -16000,6 +16109,10 @@
           "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
         },
         {
+          "name": "PlatformerMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::PlatformerMultitouchMapper"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -16045,7 +16158,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.26364576737711903,
+        "zoomFactor": 0.2386775827026135,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -29635,6 +29748,10 @@
           "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
         },
         {
+          "name": "PlatformerMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::PlatformerMultitouchMapper"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -29684,7 +29801,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5610952083582077,
+        "zoomFactor": 0.31928945896901706,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -29746,6 +29863,21 @@
           "x": 320,
           "y": 896,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Click_To_Continue",
+          "persistentUuid": "bf8a5b12-2d43-46f6-a197-f0d623fa449a",
+          "width": 0,
+          "x": 864,
+          "y": 489,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30012,6 +30144,27 @@
               "width": 192
             }
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Click_To_Continue",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Click To Continue",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -30028,6 +30181,9 @@
           },
           {
             "objectName": "Menu"
+          },
+          {
+            "objectName": "Click_To_Continue"
           }
         ]
       },
@@ -30111,6 +30267,15 @@
                 "Lore",
                 "Text_AutoTyping",
                 "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Click_To_Continue",
+                ""
               ]
             }
           ]
@@ -30339,6 +30504,10 @@
           "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
         },
         {
+          "name": "PlatformerMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::PlatformerMultitouchMapper"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -30388,7 +30557,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.17708595277544675,
+        "zoomFactor": 0.2636457673770917,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -38794,6 +38963,10 @@
         {
           "name": "PlatformerCharacterAnimator",
           "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+        },
+        {
+          "name": "PlatformerMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::PlatformerMultitouchMapper"
         },
         {
           "name": "PlatformerObject",
@@ -48802,6 +48975,10 @@
           "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
         },
         {
+          "name": "PlatformerMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::PlatformerMultitouchMapper"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -49506,6 +49683,10 @@
           "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
         },
         {
+          "name": "PlatformerMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::PlatformerMultitouchMapper"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -49555,7 +49736,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2338711436475773,
+        "zoomFactor": 0.15708689242971405,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -49570,7 +49751,7 @@
           "name": "BG",
           "persistentUuid": "8d20607f-b20f-49d6-bb60-f0e6002b83f6",
           "width": 5177,
-          "x": 39,
+          "x": 64,
           "y": -1888,
           "zOrder": 2,
           "numberProperties": [],
@@ -50970,22 +51151,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 32,
-          "height": 64,
-          "layer": "Hidden Items",
-          "name": "Continue_To_Boss",
-          "persistentUuid": "deb7fdd4-bb39-4dde-b339-d0cc2745c04d",
-          "width": 448,
-          "x": 800,
-          "y": 384,
-          "zOrder": 40,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 23,
           "layer": "",
@@ -52279,7 +52444,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "The human ahead has a very powerful weapon. Avoid getting hit and defeat him.",
+          "string": "The human ahead has a very powerful weapon. Wait for him to destroy enough crates to get past or go straight for the jump. Avoid getting hit and defeat him.",
           "font": "",
           "textAlignment": "center",
           "characterSize": 20,
@@ -52646,11 +52811,34 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ChangeLayer"
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Continue_To_Boss",
+                    "800",
+                    "384",
+                    "\"Front\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
                   },
                   "parameters": [
                     "Continue_To_Boss",
-                    "\"Front\""
+                    "Resizable",
+                    "=",
+                    "512"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Continue_",
+                    ""
                   ]
                 }
               ]
@@ -53031,6 +53219,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Human Mini Boss",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -53435,6 +53624,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Compy",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -54505,6 +54695,10 @@
           "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
         },
         {
+          "name": "PlatformerMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::PlatformerMultitouchMapper"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -54554,7 +54748,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.20153467164112818,
+        "zoomFactor": 0.2153554600887257,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -55430,8 +55624,8 @@
           "name": "Turrets",
           "persistentUuid": "1538a00b-ac27-4b8b-832a-40104a1904e1",
           "width": 288,
-          "x": 4992,
-          "y": 544,
+          "x": 5024,
+          "y": 521,
           "zOrder": 1004,
           "numberProperties": [],
           "stringProperties": [],
@@ -57914,7 +58108,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "The defense turrets can only be activated one after the other. You must be close in order to activate it. ",
+          "string": "The defense turrets can only be activated one after the other. You must be close in order to activate it. \nThe T-Rex only damages you once when you are near it. The T-Rex can also damage you when it jumps on top of you. ",
           "font": "",
           "textAlignment": "center",
           "characterSize": 20,
@@ -59884,6 +60078,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "T-Rex",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -60864,7 +61059,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Defense Turrets Hostile",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -60891,6 +61085,39 @@
                   },
                   "parameters": [
                     "Defense_Turret_Hostile",
+                    "FireBullet",
+                    "Defense_Turret_Hostile.X(\"Origin\")",
+                    "Defense_Turret_Hostile.Y(\"Origin\")",
+                    "Heavy_Bolt",
+                    "Raptor",
+                    "500",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Raptor",
+                    "Defense_Turret_Hostile2",
+                    "1000",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::FireTowardObject"
+                  },
+                  "parameters": [
+                    "Defense_Turret_Hostile2",
                     "FireBullet",
                     "Defense_Turret_Hostile.X(\"Origin\")",
                     "Defense_Turret_Hostile.Y(\"Origin\")",
@@ -61861,6 +62088,10 @@
         {
           "name": "PlatformerCharacterAnimator",
           "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+        },
+        {
+          "name": "PlatformerMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::PlatformerMultitouchMapper"
         },
         {
           "name": "PlatformerObject",
@@ -63274,6 +63505,10 @@
           "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
         },
         {
+          "name": "PlatformerMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::PlatformerMultitouchMapper"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -63735,6 +63970,10 @@
         {
           "name": "PlatformerCharacterAnimator",
           "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+        },
+        {
+          "name": "PlatformerMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::PlatformerMultitouchMapper"
         },
         {
           "name": "PlatformerObject",
@@ -64486,6 +64725,10 @@
         {
           "name": "PlatformerCharacterAnimator",
           "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+        },
+        {
+          "name": "PlatformerMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::PlatformerMultitouchMapper"
         },
         {
           "name": "PlatformerObject",
@@ -66071,6 +66314,10 @@
           "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
         },
         {
+          "name": "PlatformerMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::PlatformerMultitouchMapper"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -66722,9 +66969,4767 @@
           "parameters": []
         }
       ]
+    },
+    {
+      "associatedLayout": "Level 1: Containment Breach",
+      "lastChangeTimeStamp": 0,
+      "name": "Mobile Support?",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ]
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "category": "Input",
+      "extensionNamespace": "",
+      "fullName": "Multitouch joystick and buttons (sprite)",
+      "helpPath": "/objects/multitouch-joystick",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPGNpcmNsZSBjbGFzcz0ic3QwIiBjeD0iMTYiIGN5PSIxNiIgcj0iMTMiLz4NCjxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjI4LjQsMTIgMjAsMTIgMjAsMy42ICIvPg0KPHBvbHlsaW5lIGNsYXNzPSJzdDAiIHBvaW50cz0iMjAsMjguNCAyMCwyMCAyOC40LDIwICIvPg0KPHBvbHlsaW5lIGNsYXNzPSJzdDAiIHBvaW50cz0iMy42LDIwIDEyLDIwIDEyLDI4LjQgIi8+DQo8cG9seWxpbmUgY2xhc3M9InN0MCIgcG9pbnRzPSIxMiwzLjYgMTIsMTIgMy42LDEyICIvPg0KPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIxNiw2IDE2LjcsNyAxNS4zLDcgIi8+DQo8cG9seWdvbiBjbGFzcz0ic3QwIiBwb2ludHM9IjE2LDI2IDE1LjMsMjUgMTYuNywyNSAiLz4NCjxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iNiwxNiA3LDE1LjMgNywxNi43ICIvPg0KPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIyNiwxNiAyNSwxNi43IDI1LDE1LjMgIi8+DQo8L3N2Zz4NCg==",
+      "name": "SpriteMultitouchJoystick",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Videogames/Videogames_controller_joystick_arrows_direction.svg",
+      "shortDescription": "Joysticks or buttons for touchscreens.",
+      "version": "1.2.2",
+      "description": [
+        "Multitouch joysticks can be used the same way as physical gamepads:",
+        "- 4 or 8 directions",
+        "- Analogus pads",
+        "- Player selection",
+        "- Controls mapping for top-down movement and platformer characters",
+        "",
+        "There are ready-to-use joysticks in the asset-store [multitouch joysticks pack](https://editor.gdevelop.io/?initial-dialog=asset-store&asset-pack=multitouch-joysticks-multitouch-joysticks)."
+      ],
+      "origin": {
+        "identifier": "SpriteMultitouchJoystick",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "multitouch",
+        "joystick",
+        "thumbstick",
+        "controller",
+        "touchscreen",
+        "twin stick",
+        "shooter",
+        "virtual",
+        "platformer",
+        "platform",
+        "top-down"
+      ],
+      "authorIds": [
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1",
+        "1OgYzWp5UeVPbiWGJwI6vqfgZLC3",
+        "v0YRpdAnIucZFgiRCCecqVnGKno2",
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "description": "Check if a button is pressed on a gamepad.",
+          "fullName": "Multitouch controller button pressed",
+          "functionType": "Condition",
+          "name": "IsButtonPressed",
+          "sentence": "Button _PARAM2_ of multitouch controller _PARAM1_ is pressed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "__MultitouchJoystick.Controllers[GetArgumentAsNumber(\"ControllerIdentifier\")].Buttons[GetArgumentAsString(\"Button\")].State",
+                    "=",
+                    "\"Pressed\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "name": "ControllerIdentifier",
+              "type": "expression"
+            },
+            {
+              "description": "Button name",
+              "name": "Button",
+              "supplementaryInformation": "[\"A\",\"CROSS\",\"B\",\"CIRCLE\",\"X\",\"SQUARE\",\"Y\",\"TRIANGLE\",\"LB\",\"L1\",\"RB\",\"R1\",\"LT\",\"L2\",\"RT\",\"R2\",\"UP\",\"DOWN\",\"LEFT\",\"RIGHT\",\"BACK\",\"SHARE\",\"START\",\"OPTIONS\",\"CLICK_STICK_LEFT\",\"CLICK_STICK_RIGHT\",\"PS_BUTTON\",\"CLICK_TOUCHPAD\"]",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Check if a button is released on a gamepad.",
+          "fullName": "Multitouch controller button released",
+          "functionType": "Condition",
+          "name": "IsButtonReleased",
+          "sentence": "Button _PARAM2_ of multitouch controller _PARAM1_ is released",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "__MultitouchJoystick.Controllers[GetArgumentAsNumber(\"ControllerIdentifier\")].Buttons[GetArgumentAsString(\"Button\")].State",
+                    "=",
+                    "\"Released\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "name": "ControllerIdentifier",
+              "type": "expression"
+            },
+            {
+              "description": "Button name",
+              "name": "Button",
+              "supplementaryInformation": "[\"A\",\"CROSS\",\"B\",\"CIRCLE\",\"X\",\"SQUARE\",\"Y\",\"TRIANGLE\",\"LB\",\"L1\",\"RB\",\"R1\",\"LT\",\"L2\",\"RT\",\"R2\",\"UP\",\"DOWN\",\"LEFT\",\"RIGHT\",\"BACK\",\"SHARE\",\"START\",\"OPTIONS\",\"CLICK_STICK_LEFT\",\"CLICK_STICK_RIGHT\",\"PS_BUTTON\",\"CLICK_TOUCHPAD\"]",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Change a button state for a multitouch controller.",
+          "fullName": "Button state",
+          "functionType": "Action",
+          "name": "SetButtonState",
+          "private": true,
+          "sentence": "Mark _PARAM2_ button as _PARAM3_ for multitouch controller _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "__MultitouchJoystick.Controllers[GetArgumentAsNumber(\"ControllerIdentifier\")].Buttons[GetArgumentAsString(\"Button\")].State",
+                    "=",
+                    "GetArgumentAsString(\"ButtonState\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "name": "ControllerIdentifier",
+              "type": "expression"
+            },
+            {
+              "description": "Button name",
+              "name": "Button",
+              "type": "string"
+            },
+            {
+              "description": "Button state",
+              "name": "ButtonState",
+              "supplementaryInformation": "[\"Idle\",\"Pressed\",\"Released\"]",
+              "type": "stringWithSelector"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Change the dead zone radius of a joystick. The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved).",
+          "fullName": "Dead zone radius",
+          "functionType": "Action",
+          "name": "SetDeadZone",
+          "private": true,
+          "sentence": "Change the dead zone of multitouch joystick _PARAM2_ of multitouch controller _PARAM1_ to _PARAM3_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__MultitouchJoystick.Controllers[GetArgumentAsNumber(\"ControllerIdentifier\")].Joystick[GetArgumentAsString(\"JoystickIdentifier\")].DeadZone",
+                    "=",
+                    "GetArgumentAsNumber(\"DeadZoneRadius\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "name": "ControllerIdentifier",
+              "type": "expression"
+            },
+            {
+              "description": "Joystick name",
+              "name": "JoystickIdentifier",
+              "type": "string"
+            },
+            {
+              "description": "Dead zone radius",
+              "name": "DeadZoneRadius",
+              "supplementaryInformation": "[]",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Return the dead zone radius of a joystick. The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved).",
+          "fullName": "Dead zone radius",
+          "functionType": "Expression",
+          "name": "DeadZone",
+          "private": true,
+          "sentence": "Change multitouch joystick _PARAM2_ of multitouch controller _PARAM1_ dead zone to _PARAM3_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Variable(__MultitouchJoystick.Controllers[GetArgumentAsNumber(\"ControllerIdentifier\")].Joystick[GetArgumentAsString(\"JoystickIdentifier\")].DeadZone)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "name": "ControllerIdentifier",
+              "type": "expression"
+            },
+            {
+              "description": "Joystick name",
+              "name": "JoystickIdentifier",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the direction index (left = 1, bottom = 1, right = 2, top = 3) for an angle (in degrees).",
+          "fullName": "Angle to 4-way index",
+          "functionType": "ExpressionAndCondition",
+          "name": "AngleTo4Way",
+          "private": true,
+          "sentence": "The angle _PARAM1_ 4-way index",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "mod(round(GetArgumentAsNumber(\"Angle\") * 4 / 360), 4)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Angle",
+              "name": "Angle",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the direction index (left = 1, bottom-left = 1... top-left = 7) for an angle (in degrees).",
+          "fullName": "Angle to 8-way index",
+          "functionType": "ExpressionAndCondition",
+          "name": "AngleTo8Way",
+          "private": true,
+          "sentence": "The angle _PARAM1_ 8-way index",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "mod(round(GetArgumentAsNumber(\"Angle\") * 8 / 360), 8)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Angle",
+              "name": "Angle",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Check if angle is in a given direction.",
+          "fullName": "Angle 4-way direction",
+          "functionType": "Condition",
+          "name": "IsAngleIn4WayDirection",
+          "private": true,
+          "sentence": "The angle _PARAM1_ is the 4-way direction _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "GetArgumentAsString(\"Direction\")",
+                    "=",
+                    "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::AngleTo4Way"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "0",
+                    "GetArgumentAsNumber(\"Angle\")",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "GetArgumentAsString(\"Direction\")",
+                    "=",
+                    "\"Down\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::AngleTo4Way"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "1",
+                    "GetArgumentAsNumber(\"Angle\")",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "GetArgumentAsString(\"Direction\")",
+                    "=",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::AngleTo4Way"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "2",
+                    "GetArgumentAsNumber(\"Angle\")",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "GetArgumentAsString(\"Direction\")",
+                    "=",
+                    "\"Up\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::AngleTo4Way"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "3",
+                    "GetArgumentAsNumber(\"Angle\")",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Angle",
+              "name": "Angle",
+              "type": "expression"
+            },
+            {
+              "description": "Direction",
+              "name": "Direction",
+              "supplementaryInformation": "[\"Up\",\"Down\",\"Left\",\"Right\"]",
+              "type": "stringWithSelector"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Check if angle is in a given direction.",
+          "fullName": "Angle 8-way direction",
+          "functionType": "Condition",
+          "name": "IsAngleIn8WayDirection",
+          "private": true,
+          "sentence": "The angle _PARAM1_ is the 8-way direction _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "GetArgumentAsString(\"Direction\")",
+                    "=",
+                    "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::AngleTo8Way"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "0",
+                    "GetArgumentAsNumber(\"Angle\")",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "GetArgumentAsString(\"Direction\")",
+                    "=",
+                    "\"DownRight\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::AngleTo8Way"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "1",
+                    "GetArgumentAsNumber(\"Angle\")",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "GetArgumentAsString(\"Direction\")",
+                    "=",
+                    "\"Down\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::AngleTo8Way"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "2",
+                    "GetArgumentAsNumber(\"Angle\")",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "GetArgumentAsString(\"Direction\")",
+                    "=",
+                    "\"DownLeft\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::AngleTo8Way"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "3",
+                    "GetArgumentAsNumber(\"Angle\")",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "GetArgumentAsString(\"Direction\")",
+                    "=",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::AngleTo8Way"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "4",
+                    "GetArgumentAsNumber(\"Angle\")",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "GetArgumentAsString(\"Direction\")",
+                    "=",
+                    "\"UpLeft\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::AngleTo8Way"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "5",
+                    "GetArgumentAsNumber(\"Angle\")",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "GetArgumentAsString(\"Direction\")",
+                    "=",
+                    "\"Up\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::AngleTo8Way"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "6",
+                    "GetArgumentAsNumber(\"Angle\")",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "GetArgumentAsString(\"Direction\")",
+                    "=",
+                    "\"UpRight\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::AngleTo8Way"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "7",
+                    "GetArgumentAsNumber(\"Angle\")",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Angle",
+              "name": "Angle",
+              "type": "expression"
+            },
+            {
+              "description": "Direction",
+              "name": "Direction",
+              "supplementaryInformation": "[\"Up\",\"Down\",\"Left\",\"Right\",\"UpLeft\",\"UpRight\",\"DownLeft\",\"DownRight\"]",
+              "type": "stringWithSelector"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Check if joystick is pushed in a given direction.",
+          "fullName": "Joystick pushed in a direction (4-way)",
+          "functionType": "Condition",
+          "name": "IsDirectionPushed4Way",
+          "sentence": "Joystick _PARAM2_ of multitouch controller _PARAM1_ is pushed in direction _PARAM3_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Make sure the joystick has moved from center"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::JoystickForce"
+                  },
+                  "parameters": [
+                    "",
+                    ">",
+                    "SpriteMultitouchJoystick::DeadZone(GetArgumentAsNumber(\"ControllerIdentifier\"), GetArgumentAsString(\"JoystickIdentifier\"))",
+                    "GetArgumentAsNumber(\"ControllerIdentifier\")",
+                    "GetArgumentAsString(\"JoystickIdentifier\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::IsAngleIn4WayDirection"
+                  },
+                  "parameters": [
+                    "",
+                    "SpriteMultitouchJoystick::JoystickAngle(GetArgumentAsNumber(\"ControllerIdentifier\"), GetArgumentAsString(\"JoystickIdentifier\"))",
+                    "GetArgumentAsString(\"Direction\")",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "name": "ControllerIdentifier",
+              "type": "expression"
+            },
+            {
+              "description": "Joystick name",
+              "name": "JoystickIdentifier",
+              "supplementaryInformation": "[\"Primary\",\"Secondary\"]",
+              "type": "stringWithSelector"
+            },
+            {
+              "description": "Direction",
+              "name": "Direction",
+              "supplementaryInformation": "[\"Up\",\"Down\",\"Left\",\"Right\"]",
+              "type": "stringWithSelector"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Check if joystick is pushed in a given direction.",
+          "fullName": "Joystick pushed in a direction (8-way)",
+          "functionType": "Condition",
+          "name": "IsDirectionPushed8Way",
+          "sentence": "Joystick _PARAM2_ of multitouch controller _PARAM1_ is pushed in direction _PARAM3_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Make sure the joystick has moved from center"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::JoystickForce"
+                  },
+                  "parameters": [
+                    "",
+                    ">",
+                    "SpriteMultitouchJoystick::DeadZone(GetArgumentAsNumber(\"ControllerIdentifier\"), GetArgumentAsString(\"JoystickIdentifier\"))",
+                    "GetArgumentAsNumber(\"ControllerIdentifier\")",
+                    "GetArgumentAsString(\"JoystickIdentifier\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::IsAngleIn8WayDirection"
+                  },
+                  "parameters": [
+                    "",
+                    "SpriteMultitouchJoystick::JoystickAngle(GetArgumentAsNumber(\"ControllerIdentifier\"), GetArgumentAsString(\"JoystickIdentifier\"))",
+                    "GetArgumentAsString(\"Direction\")",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "name": "ControllerIdentifier",
+              "type": "expression"
+            },
+            {
+              "description": "Joystick name",
+              "name": "JoystickIdentifier",
+              "supplementaryInformation": "[\"Primary\",\"Secondary\"]",
+              "type": "stringWithSelector"
+            },
+            {
+              "description": "Direction",
+              "name": "Direction",
+              "supplementaryInformation": "[\"Up\",\"Down\",\"Left\",\"Right\",\"UpLeft\",\"UpRight\",\"DownLeft\",\"DownRight\"]",
+              "type": "stringWithSelector"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the percentage the thumb has been pulled away from the joystick center (Range: 0 to 1).",
+          "fullName": "Joystick force (deprecated)",
+          "functionType": "ExpressionAndCondition",
+          "name": "JoystickForce",
+          "private": true,
+          "sentence": "Joystick _PARAM2_ of multitouch controller _PARAM1_ force",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "SpriteMultitouchJoystick::StickForce(GetArgumentAsNumber(\"ControllerIdentifier\"), GetArgumentAsString(\"JoystickIdentifier\"))"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "name": "ControllerIdentifier",
+              "type": "expression"
+            },
+            {
+              "description": "Joystick name",
+              "name": "JoystickIdentifier",
+              "supplementaryInformation": "[\"Primary\",\"Secondary\"]",
+              "type": "stringWithSelector"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the force of multitouch contoller stick (from 0 to 1).",
+          "fullName": "Stick force",
+          "functionType": "ExpressionAndCondition",
+          "name": "StickForce",
+          "sentence": "multitouch controller _PARAM1_ _PARAM2_ stick force",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Variable(__MultitouchJoystick.Controllers[GetArgumentAsNumber(\"ControllerIdentifier\")].Joystick[GetArgumentAsString(\"JoystickIdentifier\")].Force)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "name": "ControllerIdentifier",
+              "type": "expression"
+            },
+            {
+              "description": "Stick name",
+              "name": "JoystickIdentifier",
+              "supplementaryInformation": "[\"Primary\",\"Secondary\"]",
+              "type": "stringWithSelector"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Change the percentage the thumb has been pulled away from the joystick center (Range: 0 to 1).",
+          "fullName": "Joystick force",
+          "functionType": "Action",
+          "name": "SetJoystickForce",
+          "private": true,
+          "sentence": "Change the force of the joystick _PARAM2_ of multitouch controller _PARAM1_ to _PARAM3_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__MultitouchJoystick.Controllers[GetArgumentAsNumber(\"ControllerIdentifier\")].Joystick[GetArgumentAsString(\"JoystickIdentifier\")].Force",
+                    "=",
+                    "GetArgumentAsNumber(\"Value\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "name": "ControllerIdentifier",
+              "type": "expression"
+            },
+            {
+              "description": "Joystick name",
+              "name": "JoystickIdentifier",
+              "type": "string"
+            },
+            {
+              "description": "Value",
+              "name": "Value",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Return the angle the joystick is pointing towards (Range: -180 to 180).",
+          "fullName": "Joystick angle (deprecated)",
+          "functionType": "Expression",
+          "name": "JoystickAngle",
+          "private": true,
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "SpriteMultitouchJoystick::StickAngle(GetArgumentAsNumber(\"ControllerIdentifier\"), GetArgumentAsString(\"JoystickIdentifier\"))"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "name": "ControllerIdentifier",
+              "type": "expression"
+            },
+            {
+              "description": "Joystick name",
+              "name": "JoystickIdentifier",
+              "supplementaryInformation": "[\"Primary\",\"Secondary\"]",
+              "type": "stringWithSelector"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Return the angle the multitouch controller stick is pointing towards (Range: -180 to 180).",
+          "fullName": "Stick angle",
+          "functionType": "Expression",
+          "name": "StickAngle",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Variable(__MultitouchJoystick.Controllers[GetArgumentAsNumber(\"ControllerIdentifier\")].Joystick[GetArgumentAsString(\"JoystickIdentifier\")].Angle)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "name": "ControllerIdentifier",
+              "type": "expression"
+            },
+            {
+              "description": "Joystick name",
+              "name": "JoystickIdentifier",
+              "supplementaryInformation": "[\"Primary\",\"Secondary\"]",
+              "type": "stringWithSelector"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Change the angle the joystick is pointing towards (Range: -180 to 180).",
+          "fullName": "Joystick angle",
+          "functionType": "Action",
+          "name": "SetJoystickAngle",
+          "private": true,
+          "sentence": "Change the angle of the joystick _PARAM2_ of multitouch controller _PARAM1_ to _PARAM3_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__MultitouchJoystick.Controllers[GetArgumentAsNumber(\"ControllerIdentifier\")].Joystick[GetArgumentAsString(\"JoystickIdentifier\")].Angle",
+                    "=",
+                    "GetArgumentAsNumber(\"Value\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "name": "ControllerIdentifier",
+              "type": "expression"
+            },
+            {
+              "description": "Joystick name",
+              "name": "JoystickIdentifier",
+              "type": "string"
+            },
+            {
+              "description": "Value",
+              "name": "Value",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Return the multitouch contoller stick force on X axis (from -1 at the left to 1 at the right).",
+          "fullName": "Stick X force",
+          "functionType": "Expression",
+          "name": "StickForceX",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "SpriteMultitouchJoystick::JoystickForce(GetArgumentAsNumber(\"ControllerIdentifier\"), GetArgumentAsString(\"JoystickIdentifier\")) * cos(ToRad(SpriteMultitouchJoystick::JoystickAngle(GetArgumentAsNumber(\"ControllerIdentifier\"), GetArgumentAsString(\"JoystickIdentifier\"))))"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "name": "ControllerIdentifier",
+              "type": "expression"
+            },
+            {
+              "description": "Joystick name",
+              "name": "JoystickIdentifier",
+              "supplementaryInformation": "[\"Primary\",\"Secondary\"]",
+              "type": "stringWithSelector"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Return the multitouch contoller stick force on Y axis (from -1 at the top to 1 at the bottom).",
+          "fullName": "Stick Y force",
+          "functionType": "Expression",
+          "name": "StickForceY",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "SpriteMultitouchJoystick::JoystickForce(GetArgumentAsNumber(\"ControllerIdentifier\"), GetArgumentAsString(\"JoystickIdentifier\")) * sin(ToRad(SpriteMultitouchJoystick::JoystickAngle(GetArgumentAsNumber(\"ControllerIdentifier\"), GetArgumentAsString(\"JoystickIdentifier\"))))"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "name": "ControllerIdentifier",
+              "type": "expression"
+            },
+            {
+              "description": "Joystick name",
+              "name": "JoystickIdentifier",
+              "supplementaryInformation": "[\"Primary\",\"Secondary\"]",
+              "type": "stringWithSelector"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Joystick that can be controlled by interacting with a touchscreen.",
+          "fullName": "Multitouch Joystick",
+          "name": "MultitouchJoystick",
+          "objectType": "",
+          "private": true,
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::SetDeadZone"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyControllerIdentifier()",
+                        "Object.Behavior::PropertyJoystickIdentifier()",
+                        "Object.Behavior::PropertyDeadZoneRadius()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onDeActivate",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "HasGameJustResumed"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Manage touches",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "HasAnyTouchOrMouseStarted"
+                          },
+                          "parameters": [
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyTouchIndex"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Repeat",
+                          "repeatExpression": "StartedTouchOrMouseCount()",
+                          "conditions": [],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "SpriteMultitouchJoystick::MultitouchJoystick::PropertyTouchId"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    "=",
+                                    "0"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "TouchX(StartedTouchOrMouseId(Object.Behavior::PropertyTouchIndex()), Object.Layer(), 0)",
+                                    "TouchY(StartedTouchOrMouseId(Object.Behavior::PropertyTouchIndex()), Object.Layer(), 0)"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyTouchId"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    "=",
+                                    "StartedTouchOrMouseId(Object.Behavior::PropertyTouchIndex())"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyTouchIndex"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Move thumb back to center when not being pressed (acts like a spring on a real controller)"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "HasTouchEnded"
+                          },
+                          "parameters": [
+                            "",
+                            "Object.Behavior::PropertyTouchId()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Update joystick position",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SpriteMultitouchJoystick::MultitouchJoystick::PropertyTouchId"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "!=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetJoystickAngle"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "AngleBetweenPositions(Object.CenterX(), Object.CenterY(), TouchX(Object.Behavior::PropertyTouchId(), Object.Layer(), 0), TouchY(Object.Behavior::PropertyTouchId(), Object.Layer(), 0))",
+                            "AngleBetweenPositions(Object.CenterX(), Object.CenterY(), TouchX(Object.Behavior::PropertyTouchId(), Object.Layer(), 0), TouchY(Object.Behavior::PropertyTouchId(), Object.Layer(), 0))"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetJoystickForce"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "clamp(2 * DistanceBetweenPositions(Object.CenterX(), Object.CenterY(), TouchX(Object.Behavior::PropertyTouchId(), Object.Layer(), 0), TouchY(Object.Behavior::PropertyTouchId(), Object.Layer(), 0)) / Object.Width(), 0, 1)",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the joystick force (from 0 to 1).",
+              "fullName": "Joystick force",
+              "functionType": "ExpressionAndCondition",
+              "name": "JoystickForce",
+              "sentence": "the joystick force",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyJoystickForce()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "JoystickForce",
+              "name": "SetJoystickForce",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyJoystickForce"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::SetJoystickForce"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyControllerIdentifier()",
+                        "Object.Behavior::PropertyJoystickIdentifier()",
+                        "Object.Behavior::PropertyJoystickForce()",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the angle the joystick is pointing towards (Range: -180 to 180).",
+              "fullName": "Joystick angle",
+              "functionType": "Expression",
+              "name": "JoystickAngle",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyJoystickAngle()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the angle the joystick is pointing towards (Range: -180 to 180).",
+              "fullName": "Joystick angle",
+              "functionType": "Action",
+              "name": "SetJoystickAngle",
+              "private": true,
+              "sentence": "Change the joystick angle of _PARAM0_ to _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyJoystickAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::SetJoystickAngle"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyControllerIdentifier()",
+                        "Object.Behavior::PropertyJoystickIdentifier()",
+                        "Object.Behavior::PropertyJoystickAngle()",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Angle",
+                  "name": "Value",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the stick force on X axis (from -1 at the left to 1 at the right).",
+              "fullName": "Stick X force",
+              "functionType": "Expression",
+              "name": "StickForceX",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::JoystickForce() * cos(ToRad(Object.Behavior::JoystickAngle()))"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the stick force on Y axis (from -1 at the top to 1 at the bottom).",
+              "fullName": "Stick Y force",
+              "functionType": "Expression",
+              "name": "StickForceY",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::JoystickForce() * sin(ToRad(Object.Behavior::JoystickAngle()))"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if joystick is pushed in a given direction.",
+              "fullName": "Joystick pushed in a direction (4-way movement)",
+              "functionType": "Condition",
+              "name": "IsDirectionPushed4Way",
+              "sentence": "_PARAM0_ is pushed in direction _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::PropertyJoystickForce"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ">",
+                        "Object.Behavior::PropertyDeadZoneRadius()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::IsAngleIn4WayDirection"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::JoystickAngle()",
+                        "GetArgumentAsString(\"Direction\")",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Direction",
+                  "name": "Direction",
+                  "supplementaryInformation": "[\"Up\",\"Down\",\"Left\",\"Right\"]",
+                  "type": "stringWithSelector"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if joystick is pushed in a given direction.",
+              "fullName": "Joystick pushed in a direction (8-way movement)",
+              "functionType": "Condition",
+              "name": "IsDirectionPushed8Way",
+              "sentence": "_PARAM0_ is pushed in direction _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::PropertyJoystickForce"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ">",
+                        "Object.Behavior::PropertyDeadZoneRadius()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::IsAngleIn8WayDirection"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::JoystickAngle()",
+                        "GetArgumentAsString(\"Direction\")",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Direction",
+                  "name": "Direction",
+                  "supplementaryInformation": "[\"Up\",\"Down\",\"Left\",\"Right\",\"UpLeft\",\"UpRight\",\"DownLeft\",\"DownRight\"]",
+                  "type": "stringWithSelector"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if a joystick is pressed.",
+              "fullName": "Joystick pressed",
+              "functionType": "Condition",
+              "name": "IsPressed",
+              "sentence": "Joystick _PARAM0_ is pressed",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::PropertyTouchId"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Reset the joystick values (except for angle, which stays the same)",
+              "fullName": "Reset",
+              "functionType": "Action",
+              "name": "Reset",
+              "private": true,
+              "sentence": "Reset the joystick of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetJoystickForce"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyTouchId"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the multitouch controller identifier.",
+              "fullName": "Multitouch controller identifier",
+              "functionType": "ExpressionAndCondition",
+              "group": "Multitouch Joystick configuration",
+              "name": "ControllerIdentifier",
+              "sentence": "the multitouch controller identifier",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyControllerIdentifier()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "ControllerIdentifier",
+              "name": "SetControllerIdentifier",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyControllerIdentifier"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the joystick name.",
+              "fullName": "Joystick name",
+              "functionType": "ExpressionAndCondition",
+              "group": "Multitouch Joystick configuration",
+              "name": "JoystickIdentifier",
+              "sentence": "the joystick name",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnString"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyJoystickIdentifier()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "string"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "JoystickIdentifier",
+              "name": "SetJoystickIdentifier",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyJoystickIdentifier"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsString(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the dead zone radius (range: 0 to 1) of the joystick. The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved).",
+              "fullName": "Dead zone radius",
+              "functionType": "ExpressionAndCondition",
+              "group": "Multitouch Joystick configuration",
+              "name": "DeadZoneRadius",
+              "sentence": "the dead zone radius",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyDeadZoneRadius()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "DeadZoneRadius",
+              "name": "SetDeadZoneRadius",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyDeadZoneRadius"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "ControllerIdentifier"
+            },
+            {
+              "value": "Primary",
+              "type": "String",
+              "label": "Joystick name",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "JoystickIdentifier"
+            },
+            {
+              "value": "0.4",
+              "type": "Number",
+              "label": "Dead zone radius (range: 0 to 1)",
+              "description": "The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved)",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "DeadZoneRadius"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Joystick angle (range: -180 to 180)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "JoystickAngle"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Joystick force (range: 0 to 1)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "JoystickForce"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "TouchId"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "TouchIndex"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        },
+        {
+          "description": "Detect button presses made on a touchscreen.",
+          "fullName": "Multitouch button",
+          "name": "MultitouchButton",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchButton::IsReleased"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyIsReleased"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchButton::SetButtonState"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "\"Idle\"",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SpriteMultitouchJoystick::MultitouchButton::IsPressed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "HasAnyTouchOrMouseStarted"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyTouchIndex"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Repeat",
+                      "repeatExpression": "StartedTouchOrMouseCount()",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TouchX(StartedTouchOrMouseId(Object.Behavior::PropertyTouchIndex()), Object.Layer(), 0)",
+                                "TouchY(StartedTouchOrMouseId(Object.Behavior::PropertyTouchIndex()), Object.Layer(), 0)"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyTouchId"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "StartedTouchOrMouseId(Object.Behavior::PropertyTouchIndex())"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SpriteMultitouchJoystick::MultitouchButton::SetButtonState"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "\"Pressed\"",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyTouchIndex"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchButton::IsPressed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "HasTouchEnded"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyTouchId()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchButton::SetButtonState"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "\"Released\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyIsReleased"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyTouchId"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchButton",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if button is released.",
+              "fullName": "Button released",
+              "functionType": "Condition",
+              "name": "IsReleased",
+              "sentence": "Button _PARAM0_ is released",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchButton::PropertyIsReleased"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchButton",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if button is pressed.",
+              "fullName": "Button pressed",
+              "functionType": "Condition",
+              "name": "IsPressed",
+              "sentence": "Button _PARAM0_ is pressed",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchButton::PropertyTouchId"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchButton",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "Button state",
+              "functionType": "Action",
+              "name": "SetButtonState",
+              "private": true,
+              "sentence": "Mark the button _PARAM0_ as _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::SetButtonState"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyControllerIdentifier()",
+                        "Object.Behavior::PropertyButtonIdentifier()",
+                        "GetArgumentAsString(\"ButtonState\")",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::MultitouchButton",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Button state",
+                  "name": "ButtonState",
+                  "supplementaryInformation": "[\"Idle\",\"Pressed\",\"Released\"]",
+                  "type": "stringWithSelector"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "ControllerIdentifier"
+            },
+            {
+              "value": "A",
+              "type": "String",
+              "label": "Button identifier",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "ButtonIdentifier"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "TouchID",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "TouchId"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "TouchIndex"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "Button released",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "IsReleased"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        },
+        {
+          "description": "Control a platformer character with a multitouch controller.",
+          "fullName": "Platformer multitouch controller mapper",
+          "name": "PlatformerMultitouchMapper",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::IsDirectionPushed4Way"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyControllerIdentifier()",
+                        "Object.Behavior::PropertyJoystickIdentifier()",
+                        "\"Left\"",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateLeftKey"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Property"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::IsDirectionPushed4Way"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyControllerIdentifier()",
+                        "Object.Behavior::PropertyJoystickIdentifier()",
+                        "\"Right\"",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateRightKey"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Property"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::IsDirectionPushed4Way"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyControllerIdentifier()",
+                        "Object.Behavior::PropertyJoystickIdentifier()",
+                        "\"Up\"",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateUpKey"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Property"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateLadderKey"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Property"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::IsDirectionPushed4Way"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyControllerIdentifier()",
+                        "Object.Behavior::PropertyJoystickIdentifier()",
+                        "\"Down\"",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateDownKey"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Property"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::IsButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyControllerIdentifier()",
+                        "Object.Behavior::PropertyJumpButton()",
+                        "\"Down\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Property"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::PlatformerMultitouchMapper",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Platform character behavior",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "PlatformBehavior::PlatformerObjectBehavior"
+              ],
+              "hidden": false,
+              "name": "Property"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Controller identifier (1, 2, 3, 4...)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "ControllerIdentifier"
+            },
+            {
+              "value": "Primary",
+              "type": "Choice",
+              "label": "Joystick name",
+              "description": "",
+              "group": "Controls",
+              "extraInformation": [
+                "Primary",
+                "Secondary"
+              ],
+              "hidden": false,
+              "name": "JoystickIdentifier"
+            },
+            {
+              "value": "A",
+              "type": "String",
+              "label": "Jump button name",
+              "description": "",
+              "group": "Controls",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "JumpButton"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        },
+        {
+          "description": "Control a top-down character with a multitouch controller.",
+          "fullName": "Top-down multitouch controller mapper",
+          "name": "TopDownMultitouchMapper",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::TopDownMultitouchMapper::PropertyStickMode"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Analog\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::SimulateStick"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TopDownMovement",
+                        "SpriteMultitouchJoystick::StickAngle(Object.Behavior::PropertyControllerIdentifier(), Object.Behavior::PropertyJoystickIdentifier())",
+                        "SpriteMultitouchJoystick::StickForce(Object.Behavior::PropertyControllerIdentifier(), Object.Behavior::PropertyJoystickIdentifier())"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::TopDownMultitouchMapper::PropertyStickMode"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"360°\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::SimulateStick"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TopDownMovement",
+                        "SpriteMultitouchJoystick::StickAngle(Object.Behavior::PropertyControllerIdentifier(), Object.Behavior::PropertyJoystickIdentifier())",
+                        "sign(SpriteMultitouchJoystick::StickForce(Object.Behavior::PropertyControllerIdentifier(), Object.Behavior::PropertyJoystickIdentifier()))"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::TopDownMultitouchMapper::PropertyStickMode"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"8 Directions\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "TopDownMovementBehavior::DiagonalsAllowed"
+                          },
+                          "parameters": [
+                            "Object",
+                            "TopDownMovement"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "SpriteMultitouchJoystick::IsDirectionPushed4Way"
+                              },
+                              "parameters": [
+                                "",
+                                "Object.Behavior::PropertyControllerIdentifier()",
+                                "Object.Behavior::PropertyJoystickIdentifier()",
+                                "\"Left\"",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TopDownMovementBehavior::SimulateLeftKey"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "SpriteMultitouchJoystick::IsDirectionPushed4Way"
+                              },
+                              "parameters": [
+                                "",
+                                "Object.Behavior::PropertyControllerIdentifier()",
+                                "Object.Behavior::PropertyJoystickIdentifier()",
+                                "\"Right\"",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TopDownMovementBehavior::SimulateRightKey"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "SpriteMultitouchJoystick::IsDirectionPushed4Way"
+                              },
+                              "parameters": [
+                                "",
+                                "Object.Behavior::PropertyControllerIdentifier()",
+                                "Object.Behavior::PropertyJoystickIdentifier()",
+                                "\"Up\"",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TopDownMovementBehavior::SimulateUpKey"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "SpriteMultitouchJoystick::IsDirectionPushed4Way"
+                              },
+                              "parameters": [
+                                "",
+                                "Object.Behavior::PropertyControllerIdentifier()",
+                                "Object.Behavior::PropertyJoystickIdentifier()",
+                                "\"Down\"",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TopDownMovementBehavior::SimulateDownKey"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::DiagonalsAllowed"
+                          },
+                          "parameters": [
+                            "Object",
+                            "TopDownMovement"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "SpriteMultitouchJoystick::IsDirectionPushed8Way"
+                              },
+                              "parameters": [
+                                "",
+                                "Object.Behavior::PropertyControllerIdentifier()",
+                                "Object.Behavior::PropertyJoystickIdentifier()",
+                                "\"Left\"",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TopDownMovementBehavior::SimulateLeftKey"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "SpriteMultitouchJoystick::IsDirectionPushed8Way"
+                              },
+                              "parameters": [
+                                "",
+                                "Object.Behavior::PropertyControllerIdentifier()",
+                                "Object.Behavior::PropertyJoystickIdentifier()",
+                                "\"Right\"",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TopDownMovementBehavior::SimulateRightKey"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "SpriteMultitouchJoystick::IsDirectionPushed8Way"
+                              },
+                              "parameters": [
+                                "",
+                                "Object.Behavior::PropertyControllerIdentifier()",
+                                "Object.Behavior::PropertyJoystickIdentifier()",
+                                "\"Up\"",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TopDownMovementBehavior::SimulateUpKey"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "SpriteMultitouchJoystick::IsDirectionPushed8Way"
+                              },
+                              "parameters": [
+                                "",
+                                "Object.Behavior::PropertyControllerIdentifier()",
+                                "Object.Behavior::PropertyJoystickIdentifier()",
+                                "\"Down\"",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TopDownMovementBehavior::SimulateDownKey"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "SpriteMultitouchJoystick::IsDirectionPushed8Way"
+                              },
+                              "parameters": [
+                                "",
+                                "Object.Behavior::PropertyControllerIdentifier()",
+                                "Object.Behavior::PropertyJoystickIdentifier()",
+                                "\"UpLeft\"",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TopDownMovementBehavior::SimulateUpKey"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TopDownMovementBehavior::SimulateLeftKey"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "SpriteMultitouchJoystick::IsDirectionPushed8Way"
+                              },
+                              "parameters": [
+                                "",
+                                "Object.Behavior::PropertyControllerIdentifier()",
+                                "Object.Behavior::PropertyJoystickIdentifier()",
+                                "\"UpRight\"",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TopDownMovementBehavior::SimulateUpKey"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TopDownMovementBehavior::SimulateRightKey"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "SpriteMultitouchJoystick::IsDirectionPushed8Way"
+                              },
+                              "parameters": [
+                                "",
+                                "Object.Behavior::PropertyControllerIdentifier()",
+                                "Object.Behavior::PropertyJoystickIdentifier()",
+                                "\"DownLeft\"",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TopDownMovementBehavior::SimulateDownKey"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TopDownMovementBehavior::SimulateLeftKey"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "SpriteMultitouchJoystick::IsDirectionPushed8Way"
+                              },
+                              "parameters": [
+                                "",
+                                "Object.Behavior::PropertyControllerIdentifier()",
+                                "Object.Behavior::PropertyJoystickIdentifier()",
+                                "\"DownRight\"",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TopDownMovementBehavior::SimulateDownKey"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TopDownMovementBehavior::SimulateRightKey"
+                              },
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::TopDownMultitouchMapper",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Top-down movement behavior",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "TopDownMovementBehavior::TopDownMovementBehavior"
+              ],
+              "hidden": false,
+              "name": "TopDownMovement"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Controller identifier (1, 2, 3, 4...)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "ControllerIdentifier"
+            },
+            {
+              "value": "Primary",
+              "type": "Choice",
+              "label": "Joystick name",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "Primary",
+                "Secondary"
+              ],
+              "hidden": false,
+              "name": "JoystickIdentifier"
+            },
+            {
+              "value": "Analog",
+              "type": "Choice",
+              "label": "Stick mode",
+              "description": "",
+              "group": "Controls",
+              "extraInformation": [
+                "Analog",
+                "360°",
+                "8 Directions"
+              ],
+              "hidden": false,
+              "name": "StickMode"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": [
+        {
+          "defaultName": "Joystick",
+          "description": "Joystick for touchscreens.",
+          "fullName": "Multitouch Joystick",
+          "name": "SpriteMultitouchJoystick",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Border",
+                        "0",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Thumb",
+                        "0",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Border",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Thumb",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "Border",
+                        "=",
+                        "0",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "Thumb",
+                        "=",
+                        "0",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::UpdateConfiguration"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetIncludedInParentCollisionMask"
+                      },
+                      "parameters": [
+                        "Thumb",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreAutour"
+                      },
+                      "parameters": [
+                        "Thumb",
+                        "Border",
+                        "Border.MultitouchJoystick::JoystickForce() * Border.Width() / 2",
+                        "Border.MultitouchJoystick::JoystickAngle()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onHotReloading",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::UpdateConfiguration"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Pass the object property values to the behavior.",
+              "fullName": "Update configuration",
+              "functionType": "Action",
+              "name": "UpdateConfiguration",
+              "private": true,
+              "sentence": "Update the configuration of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetControllerIdentifier"
+                      },
+                      "parameters": [
+                        "Border",
+                        "MultitouchJoystick",
+                        "=",
+                        "Object.PropertyControllerIdentifier()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetJoystickIdentifier"
+                      },
+                      "parameters": [
+                        "Border",
+                        "MultitouchJoystick",
+                        "=",
+                        "Object.PropertyJoystickIdentifier()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetDeadZoneRadius"
+                      },
+                      "parameters": [
+                        "Border",
+                        "MultitouchJoystick",
+                        "=",
+                        "Object.PropertyDeadZoneRadius()",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "De/activate control of the joystick.",
+              "fullName": "De/activate control",
+              "functionType": "Action",
+              "name": "ActivateControl",
+              "sentence": "Activate control of _PARAM0_: _PARAM1_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "GetArgumentAsBoolean"
+                      },
+                      "parameters": [
+                        "\"ShouldActivate\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Border",
+                        "MultitouchJoystick",
+                        "no"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GetArgumentAsBoolean"
+                      },
+                      "parameters": [
+                        "\"ShouldActivate\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Border",
+                        "MultitouchJoystick",
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                },
+                {
+                  "description": "Activate",
+                  "name": "ShouldActivate",
+                  "type": "yesorno"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if a stick is pressed.",
+              "fullName": "Stick pressed",
+              "functionType": "Condition",
+              "name": "IsPressed",
+              "sentence": "Stick _PARAM0_ is pressed",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::IsPressed"
+                      },
+                      "parameters": [
+                        "Border",
+                        "MultitouchJoystick",
+                        "!="
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the joystick force (from 0 to 1).",
+              "fullName": "Joystick force (deprecated)",
+              "functionType": "ExpressionAndCondition",
+              "name": "JoystickForce",
+              "private": true,
+              "sentence": "the joystick force",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Border.MultitouchJoystick::JoystickForce()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the strick force (from 0 to 1).",
+              "fullName": "Stick force",
+              "functionType": "ExpressionAndCondition",
+              "name": "StickForce",
+              "sentence": "the stick force",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Border.MultitouchJoystick::JoystickForce()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the stick force on X axis (from -1 at the left to 1 at the right).",
+              "fullName": "Stick X force",
+              "functionType": "ExpressionAndCondition",
+              "name": "StickForceX",
+              "sentence": "the stick X force",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Border.MultitouchJoystick::StickForceX()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the stick force on Y axis (from -1 at the top to 1 at the bottom).",
+              "fullName": "Stick Y force",
+              "functionType": "ExpressionAndCondition",
+              "name": "StickForceY",
+              "sentence": "the stick Y force",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Border.MultitouchJoystick::StickForceY()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the angle the joystick is pointing towards (from -180 to 180).",
+              "fullName": "Joystick angle (deprecated)",
+              "functionType": "Expression",
+              "name": "JoystickAngle",
+              "private": true,
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Border.MultitouchJoystick::JoystickAngle()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Return the angle the stick is pointing towards (from -180 to 180).",
+              "fullName": "Stick angle",
+              "functionType": "Expression",
+              "name": "StickAngle",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Border.MultitouchJoystick::JoystickAngle()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if joystick is pushed in a given direction.",
+              "fullName": "Joystick pushed in a direction (4-way movement)",
+              "functionType": "Condition",
+              "name": "IsDirectionPushed4Way",
+              "sentence": "_PARAM0_ is pushed in direction _PARAM1_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::IsDirectionPushed4Way"
+                      },
+                      "parameters": [
+                        "Border",
+                        "MultitouchJoystick",
+                        "GetArgumentAsString(\"Direction\")",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                },
+                {
+                  "description": "Direction",
+                  "name": "Direction",
+                  "supplementaryInformation": "[\"Up\",\"Down\",\"Left\",\"Right\"]",
+                  "type": "stringWithSelector"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if joystick is pushed in a given direction.",
+              "fullName": "Joystick pushed in a direction (8-way movement)",
+              "functionType": "Condition",
+              "name": "IsDirectionPushed8Way",
+              "sentence": "_PARAM0_ is pushed in direction _PARAM1_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::IsDirectionPushed8Way"
+                      },
+                      "parameters": [
+                        "Border",
+                        "MultitouchJoystick",
+                        "GetArgumentAsString(\"Direction\")",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                },
+                {
+                  "description": "Direction",
+                  "name": "Direction",
+                  "supplementaryInformation": "[\"Up\",\"Down\",\"Left\",\"Right\",\"UpLeft\",\"UpRight\",\"DownLeft\",\"DownRight\"]",
+                  "type": "stringWithSelector"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the multitouch controller identifier (1, 2, 3, 4...).",
+              "fullName": "Multitouch controller identifier",
+              "functionType": "ExpressionAndCondition",
+              "group": "Multitouch Joystick configuration",
+              "name": "ControllerIdentifier",
+              "sentence": "the multitouch controller identifier",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Border.MultitouchJoystick::PropertyControllerIdentifier()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "ControllerIdentifier",
+              "name": "SetControllerIdentifier",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetControllerIdentifier"
+                      },
+                      "parameters": [
+                        "Border",
+                        "MultitouchJoystick",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the joystick name of the object.",
+              "fullName": "Joystick name",
+              "functionType": "ExpressionAndCondition",
+              "group": "Multitouch Joystick configuration",
+              "name": "JoystickIdentifier",
+              "sentence": "the joystick name",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnString"
+                      },
+                      "parameters": [
+                        "Border.MultitouchJoystick::PropertyJoystickIdentifier()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "string"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "JoystickIdentifier",
+              "name": "SetJoystickIdentifier",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetJoystickIdentifier"
+                      },
+                      "parameters": [
+                        "Border",
+                        "MultitouchJoystick",
+                        "=",
+                        "GetArgumentAsString(\"Value\")",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the dead zone radius of the joystick (range: 0 to 1). The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved).",
+              "fullName": "Dead zone radius",
+              "functionType": "ExpressionAndCondition",
+              "group": "Multitouch Joystick configuration",
+              "name": "DeadZoneRadius",
+              "sentence": "the dead zone radius",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Border.MultitouchJoystick::PropertyDeadZoneRadius()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "DeadZoneRadius",
+              "name": "SetDeadZoneRadius",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetDeadZoneRadius"
+                      },
+                      "parameters": [
+                        "Border",
+                        "MultitouchJoystick",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Multitouch controller identifier (1, 2, 3, 4...)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "ControllerIdentifier"
+            },
+            {
+              "value": "Primary",
+              "type": "Choice",
+              "label": "Joystick name",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "Primary",
+                "Secondary"
+              ],
+              "hidden": false,
+              "name": "JoystickIdentifier"
+            },
+            {
+              "value": "0.4",
+              "type": "Number",
+              "label": "Dead zone radius (range: 0 to 1)",
+              "description": "The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved)",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "DeadZoneRadius"
+            },
+            {
+              "value": "Center-center",
+              "type": "String",
+              "label": "",
+              "description": "Only used by the scene editor.",
+              "group": "",
+              "extraInformation": [
+                "Thumb"
+              ],
+              "hidden": true,
+              "name": "ThumbAnchorOrigin"
+            },
+            {
+              "value": "Center-center",
+              "type": "Number",
+              "label": "",
+              "description": "Only used by the scene editor.",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "ThumbAnchorTarget"
+            },
+            {
+              "value": "true",
+              "type": "Boolean",
+              "label": "",
+              "description": "Only used by the scene editor.",
+              "group": "",
+              "extraInformation": [
+                "Thumb"
+              ],
+              "hidden": true,
+              "name": "ThumbIsScaledProportionally"
+            },
+            {
+              "value": "Center-center",
+              "type": "String",
+              "label": "",
+              "description": "Only used by the scene editor.",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "ParentOrigin"
+            }
+          ],
+          "objects": [
+            {
+              "adaptCollisionMaskAutomatically": false,
+              "assetStoreId": "",
+              "name": "Thumb",
+              "type": "Sprite",
+              "updateIfNotVisible": false,
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "animations": [
+                {
+                  "name": "Idle",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "timeBetweenFrames": 0.08,
+                      "sprites": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "adaptCollisionMaskAutomatically": false,
+              "assetStoreId": "",
+              "name": "Border",
+              "type": "Sprite",
+              "updateIfNotVisible": false,
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "MultitouchJoystick",
+                  "type": "SpriteMultitouchJoystick::MultitouchJoystick",
+                  "ControllerIdentifier": 1,
+                  "JoystickIdentifier": "Primary",
+                  "FloatingEnabled": false,
+                  "DeadZoneRadius": 0.4,
+                  "JoystickAngle": 0,
+                  "JoystickForce": 0,
+                  "TouchId": 0,
+                  "TouchIndex": 0
+                }
+              ],
+              "animations": [
+                {
+                  "name": "Idle",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "timeBetweenFrames": 0.08,
+                      "sprites": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Thumb"
+              },
+              {
+                "objectName": "Border"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "author": "",
       "category": "Movement",
